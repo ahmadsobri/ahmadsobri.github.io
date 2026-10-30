@@ -10,12 +10,6 @@ tags:
   - Future of Work
 description: "Exploring how AI is changing software engineering and the evolving role of engineers."
 ---
-# Memahami Masa Depan Software Engineer di Era AI: Apa yang Tersisa Ketika AI Sudah Bisa Menulis Kode?
-
-Pembahasan video: **"AI Writes the Code. So What's Left for Engineers?"** — Laurie Voss, Arize AI
-
----
-
 ## 1. Gambaran besar: Apa sebenarnya pesan utama pembicara?
 
 Ada satu pertanyaan besar yang ingin disampaikan Laurie Voss melalui presentasi ini:
