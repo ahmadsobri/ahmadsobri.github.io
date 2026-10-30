@@ -1,18 +1,135 @@
-# Informasi Situs
-title: Ahmad Sobri - Software Engineering Notes
-description: Personal knowledge base, system design notes, and lessons learned building software..
-url: "https://ahmadsobri.github.io" # Ganti dengan URL GitHub Pages Anda
-baseurl: ""      # Kosongkan "" jika repositori Anda adalah username.github.io, kalau tidak "/nama-repository"
 
-# Pengaturan Author
+# ============================================================
+# SITE INFORMATION
+# ============================================================
+
+title: "Ahmad Sobri - Software Engineering Notes"
+tagline: "Knowledge, Architecture, and Engineering"
+description: >-
+  Personal knowledge base, system design notes, software architecture,
+  engineering practices, and lessons learned building software.
+
+url: "https://ahmadsobri.github.io"
+baseurl: ""
+
+lang: en
+
+# ============================================================
+# AUTHOR INFORMATION
+# ============================================================
+
 author:
-  name: Ahmad Sobri
+  name: "Ahmad Sobri"
+  about: >-
+    Software engineering notes, system design explorations,
+    architecture decisions, and practical lessons from building software.
 
-# Konfigurasi Build / Compiler
+# ============================================================
+# THEME CONFIGURATION
+# ============================================================
+
+theme: jekyll-theme-hydejack
+
+# Sidebar appearance
+accent_color: "rgb(0, 150, 136)"
+accent_image: none
+
+# Browser theme color
+theme_color: "rgb(25, 55, 71)"
+
+# Typography
+font: "Noto Sans, Helvetica, Arial, sans-serif"
+font_heading: "Roboto Slab, Helvetica, Arial, sans-serif"
+google_fonts: "Roboto+Slab:700|Noto+Sans:400,400i,700,700i"
+
+# ============================================================
+# DARK MODE
+# ============================================================
+
+hydejack:
+  dark_mode:
+    dynamic: true
+    icon: true
+    always: false
+
+# ============================================================
+# MARKDOWN AND PERMALINKS
+# ============================================================
+
 markdown: kramdown
-theme: chirpy # Tema bawaan GitHub Pages (pilihan lain: minima, jekyll-theme-cayman, jekyll-theme-architect, chirpy, dll)
 
-# Pengaturan Tambahan
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+permalink: /:categories/:year/:month/:day/:title/
+
+# ============================================================
+# DEFAULT FRONT MATTER
+# ============================================================
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author: Ahmad Sobri
+      comments: false
+      share: true
+      related_posts: true
+
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+
+# ============================================================
+# BLOG CONFIGURATION
+# ============================================================
+
+# Use the list layout for a clean technical knowledge base.
+# You can also use "blog" or "grid" where supported.
+# Configure the layout in your index.md front matter.
+
+# ============================================================
+# PLUGINS
+# ============================================================
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+# ============================================================
+# RSS FEED
+# ============================================================
+
+feed:
+  path: feed.xml
+
+# ============================================================
+# SEO
+# ============================================================
+
+twitter:
+  card: summary
+
+social:
+  name: Ahmad Sobri
+  links:
+    - https://github.com/ahmadsobri
+
+# ============================================================
+# EXCLUDE FILES FROM BUILD
+# ============================================================
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - LICENSE
+  - .gitignore
+  - .github
