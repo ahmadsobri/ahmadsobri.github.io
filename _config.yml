@@ -15,31 +15,30 @@ baseurl: ""
 lang: en
 
 # ============================================================
-# AUTHOR INFORMATION
+# AUTHOR
 # ============================================================
 
 author:
   name: "Ahmad Sobri"
   about: >-
-    Software engineering notes, system design explorations,
-    architecture decisions, and practical lessons from building software.
+    Software engineer documenting system design,
+    software architecture, and engineering practices.
+  social:
+    github: ahmadsobri
 
 # ============================================================
-# THEME CONFIGURATION
+# HYDEJACK THEME
 # ============================================================
 
-theme: jekyll-theme-hydejack
+remote_theme: hydecorp/hydejack@v9
 
-# Sidebar appearance
 accent_color: "rgb(0, 150, 136)"
 accent_image: none
-
-# Browser theme color
 theme_color: "rgb(25, 55, 71)"
 
-# Typography
 font: "Noto Sans, Helvetica, Arial, sans-serif"
 font_heading: "Roboto Slab, Helvetica, Arial, sans-serif"
+
 google_fonts: "Roboto+Slab:700|Noto+Sans:400,400i,700,700i"
 
 # ============================================================
@@ -53,7 +52,7 @@ hydejack:
     always: false
 
 # ============================================================
-# MARKDOWN AND PERMALINKS
+# MARKDOWN
 # ============================================================
 
 markdown: kramdown
@@ -61,6 +60,7 @@ markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
+  math_engine: mathjax
 
 permalink: /:categories/:year/:month/:day/:title/
 
@@ -86,23 +86,16 @@ defaults:
       layout: page
 
 # ============================================================
-# BLOG CONFIGURATION
-# ============================================================
-
-# Use the list layout for a clean technical knowledge base.
-# You can also use "blog" or "grid" where supported.
-# Configure the layout in your index.md front matter.
-
-# ============================================================
 # PLUGINS
 # ============================================================
 
 plugins:
+  - jekyll-include-cache
   - jekyll-feed
   - jekyll-seo-tag
 
 # ============================================================
-# RSS FEED
+# RSS
 # ============================================================
 
 feed:
@@ -121,7 +114,7 @@ social:
     - https://github.com/ahmadsobri
 
 # ============================================================
-# EXCLUDE FILES FROM BUILD
+# EXCLUDE
 # ============================================================
 
 exclude:
