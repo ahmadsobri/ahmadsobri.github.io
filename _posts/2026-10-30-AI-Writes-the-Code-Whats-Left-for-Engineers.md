@@ -1,14 +1,16 @@
+
 ---
 layout: post
-title: "AI Writes the Code. So What's Left for Engineers?"
+title: "AI Writes the Code: What's Left for Engineers?"
 date: 2026-10-30 15:04:00 +0700
 categories:
-  - AI - Software Engineer
+  - Software Engineering
 tags:
-  - Product Engineer
-  - Software Engineer
+  - AI
+  - Software Engineering
+  - Future of Work
+description: "Exploring how AI is changing software engineering and the evolving role of engineers."
 ---
-
 # Memahami Masa Depan Software Engineer di Era AI: Apa yang Tersisa Ketika AI Sudah Bisa Menulis Kode?
 
 Pembahasan video: **"AI Writes the Code. So What's Left for Engineers?"** — Laurie Voss, Arize AI
