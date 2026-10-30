@@ -2,12 +2,10 @@
 ---
 layout: list
 title: Blog
-description: All articles about software engineering, system design, and architecture.
+description: All software engineering articles and technical notes.
 permalink: /blog/
-menu: true
-order: 2
 ---
 
 # Engineering Articles
 
-Technical notes, software architecture explorations, system design, and lessons learned from building software.
+Explore my notes about software engineering, system design, and architecture.
