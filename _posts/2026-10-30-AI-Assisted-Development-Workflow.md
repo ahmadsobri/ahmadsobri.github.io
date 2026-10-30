@@ -12,9 +12,7 @@ tags:
   - Sprint Planning + GitLab \+ Claude + VS Code
 description: "Exploring how Sprint-Based AI-Assisted Development Workflow."
 ---
-# Sprint-Based AI-Assisted Development Workflow
-
- ## 1\. Prinsip Utama
+ # 1\. Prinsip Utama
 
  Dalam workflow berbasis Sprint:
 
