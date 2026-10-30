@@ -1,41 +1,43 @@
 
 ---
-layout: blog
-title: Engineering Notes
-description: Software engineering, system design, architecture, and engineering practices.
+layout: page
+title: Home
+description: Ahmad Sobri - Software Engineering Notes
 permalink: /
 ---
 
 # Engineering Notes
 
+Building software is more than writing code. It is about understanding problems, designing systems, making trade-offs, and continuously learning.
+
 Welcome to my engineering notebook.
 
-I'm **Ahmad Sobri**, a software engineer interested in designing and building scalable, maintainable, and reliable software systems.
-
-This website is where I document my engineering journey, technical explorations, and lessons learned from building software.
+I'm **Ahmad Sobri**, a software engineer documenting technical explorations, software architecture, and lessons learned throughout my engineering journey.
 
 ---
 
 ## Areas of Interest
 
-**System Design**
+### System Design
 
 Distributed systems, scalability, high availability, caching, messaging, and database architecture.
 
-**Software Architecture**
+### Software Architecture
 
-Clean Architecture, Domain-Driven Design, Microservices, SOLID principles, and design patterns.
+Clean Architecture, Domain-Driven Design, Microservices, design patterns, and SOLID principles.
 
-**Backend Engineering**
+### Backend Engineering
 
-API design, database optimization, authentication, performance, and testing.
+API design, database optimization, authentication, performance engineering, and testing.
 
-**Engineering Practices**
+### Engineering Practices
 
 Code quality, refactoring, technical decision-making, and developer productivity.
 
 ---
 
-## Latest Articles
+## Explore My Articles
 
-Explore my latest technical notes, experiments, and engineering insights.
+Discover my latest technical notes and engineering explorations.
+
+[Browse All Articles →](/blog/)
