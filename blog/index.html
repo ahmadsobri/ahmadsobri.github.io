@@ -1,10 +1,52 @@
-
 ---
 layout: blog
 title: Blog
 description: Software engineering articles, system design, and architecture notes.
 ---
 
-# Engineering Articles
+<div class="page">
 
-My collection of technical notes, software architecture explorations, and lessons learned from building software.
+  <h1>Engineering Articles</h1>
+
+  <p>
+    My collection of technical notes, software architecture
+    explorations, and lessons learned from building software.
+  </p>
+
+  {% if paginator.posts.size > 0 %}
+
+    {% for post in paginator.posts %}
+
+      <article class="post">
+
+        <h2>
+          <a href="{{ post.url | relative_url }}">
+            {{ post.title }}
+          </a>
+        </h2>
+
+        <p>
+          <small>{{ post.date | date: "%B %d, %Y" }}</small>
+        </p>
+
+        <p>
+          {{ post.description | default: post.excerpt | strip_html | truncatewords: 40 }}
+        </p>
+
+        <a href="{{ post.url | relative_url }}">
+          Read article →
+        </a>
+
+      </article>
+
+      <hr>
+
+    {% endfor %}
+
+  {% else %}
+
+    <p>No articles published yet.</p>
+
+  {% endif %}
+
+</div>
