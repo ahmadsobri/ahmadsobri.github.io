@@ -1,7 +1,17 @@
-Berikut catatan `.md` yang merangkum workflow berbasis **Sprint Planning + GitLab \+ Claude + VS Code**, termasuk pembagian tanggung jawab dan mekanisme commit/push.
-
- Sprint-Based AI-Assisted Development Workflow
-
+---
+layout: post
+title: "Sprint-Based AI-Assisted Development Workflow"
+date: 2026-10-30 14:00:00 +0700
+categories:
+  - Software Engineering
+  - AI-Assisted Development Workflow
+tags:
+  - AI-Assisted Development Workflow
+  - Software Engineering
+  - Prompting
+  - Sprint Planning + GitLab \+ Claude + VS Code
+description: "Exploring how Sprint-Based AI-Assisted Development Workflow."
+---
 # Sprint-Based AI-Assisted Development Workflow
 
  ## 1\. Prinsip Utama
