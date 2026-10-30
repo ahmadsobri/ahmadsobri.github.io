@@ -1,17 +1,16 @@
 # Informasi Situs
-title: Ahmad Sobri
-description: Deskripsi singkat tentang blog atau proyek Anda.
+title: Ahmad Sobri - Software Engineering Notes
+description: Personal knowledge base, system design notes, and lessons learned building software..
 url: "https://ahmadsobri.github.io" # Ganti dengan URL GitHub Pages Anda
 baseurl: ""      # Kosongkan "" jika repositori Anda adalah username.github.io, kalau tidak "/nama-repository"
 
 # Pengaturan Author
 author:
   name: Ahmad Sobri
-  email: asobach9@gmail.com
 
 # Konfigurasi Build / Compiler
 markdown: kramdown
-theme: minima # Tema bawaan GitHub Pages (pilihan lain: jekyll-theme-cayman, jekyll-theme-architect, dll)
+theme: chirpy # Tema bawaan GitHub Pages (pilihan lain: minima, jekyll-theme-cayman, jekyll-theme-architect, chirpy, dll)
 
 # Pengaturan Tambahan
 plugins:
