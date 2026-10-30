@@ -1,0 +1,19 @@
+# Informasi Situs
+title: Ahmad Sobri
+description: Deskripsi singkat tentang blog atau proyek Anda.
+url: "https://ahmadsobri.github.io" # Ganti dengan URL GitHub Pages Anda
+baseurl: "/nama-repositori"      # Kosongkan "" jika repositori Anda adalah username.github.io
+
+# Pengaturan Author
+author:
+  name: Ahmad Sobri
+  email: asobach9@gmail.com
+
+# Konfigurasi Build / Compiler
+markdown: kramdown
+theme: minima # Tema bawaan GitHub Pages (pilihan lain: jekyll-theme-cayman, jekyll-theme-architect, dll)
+
+# Pengaturan Tambahan
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
