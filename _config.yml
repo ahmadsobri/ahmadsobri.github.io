@@ -2,7 +2,7 @@
 title: Ahmad Sobri
 description: Deskripsi singkat tentang blog atau proyek Anda.
 url: "https://ahmadsobri.github.io" # Ganti dengan URL GitHub Pages Anda
-baseurl: "/nama-repositori"      # Kosongkan "" jika repositori Anda adalah username.github.io
+baseurl: ""      # Kosongkan "" jika repositori Anda adalah username.github.io, kalau tidak "/nama-repository"
 
 # Pengaturan Author
 author:
