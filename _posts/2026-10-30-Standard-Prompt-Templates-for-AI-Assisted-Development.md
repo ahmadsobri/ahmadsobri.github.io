@@ -1,7 +1,18 @@
-Berikut catatan `.md` terpisah yang khusus membahas **pembangunan template prompt standar**. Saya buat sebagai dokumen lanjutan dari workflow sebelumnya.
-
- Standard Prompt Templates for AI-Assisted Development✓
-
+---
+layout: post
+title: "Standard Prompt Templates for AI-Assisted Development"
+date: 2026-10-30 14:00:00 +0700
+categories:
+  - Software Engineering
+  - Prompting
+  - Vibe Coding
+tags:
+  - AI
+  - Software Engineering
+  - Prompting
+  - Vibe Coding
+description: "Exploring how AI Standard Prompt Templates for AI-Assisted Development."
+---
 # Standard Prompt Templates for AI-Assisted Development
 
  ## 1\. Tujuan
