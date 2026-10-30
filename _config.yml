@@ -1,17 +1,32 @@
 
 # ============================================================
+# SIDEBAR NAVIGATION
+# ============================================================
+
+menu:
+  - title: Home
+    url: /
+
+  - title: Blog
+    url: /blog/
+
+  - title: About
+    url: /about/
+
+
+# ============================================================
 # SITE INFORMATION
 # ============================================================
 
 title: "Ahmad Sobri - Software Engineering Notes"
 tagline: "Knowledge, Architecture, and Engineering"
+
 description: >-
   Personal knowledge base, system design notes, software architecture,
   engineering practices, and lessons learned building software.
 
 url: "https://ahmadsobri.github.io"
 baseurl: ""
-
 lang: en
 
 # ============================================================
@@ -20,9 +35,10 @@ lang: en
 
 author:
   name: "Ahmad Sobri"
-  about: >-
+  about: |
     Software engineer documenting system design,
     software architecture, and engineering practices.
+
   social:
     github: ahmadsobri
 
@@ -30,15 +46,18 @@ author:
 # HYDEJACK THEME
 # ============================================================
 
+# Use remote_theme for GitHub Pages branch deployment.
+# Do not use theme: jekyll-theme-hydejack here.
+
 remote_theme: hydecorp/hydejack@v9
 
 accent_color: "rgb(0, 150, 136)"
 accent_image: none
 theme_color: "rgb(25, 55, 71)"
 
+# Typography
 font: "Noto Sans, Helvetica, Arial, sans-serif"
 font_heading: "Roboto Slab, Helvetica, Arial, sans-serif"
-
 google_fonts: "Roboto+Slab:700|Noto+Sans:400,400i,700,700i"
 
 # ============================================================
@@ -65,7 +84,7 @@ kramdown:
 permalink: /:categories/:year/:month/:day/:title/
 
 # ============================================================
-# DEFAULT FRONT MATTER
+# DEFAULT PAGE CONFIGURATION
 # ============================================================
 
 defaults:
@@ -108,11 +127,6 @@ feed:
 twitter:
   card: summary
 
-social:
-  name: Ahmad Sobri
-  links:
-    - https://github.com/ahmadsobri
-
 # ============================================================
 # EXCLUDE
 # ============================================================
@@ -126,3 +140,4 @@ exclude:
   - LICENSE
   - .gitignore
   - .github
+
