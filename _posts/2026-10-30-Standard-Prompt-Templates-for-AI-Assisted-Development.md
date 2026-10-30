@@ -13,9 +13,7 @@ tags:
   - Vibe Coding
 description: "Exploring how AI Standard Prompt Templates for AI-Assisted Development."
 ---
-# Standard Prompt Templates for AI-Assisted Development
-
- ## 1\. Tujuan
+ # 1\. Tujuan
 
  Tujuan utama membuat prompt template adalah:
 
