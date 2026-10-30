@@ -1,8 +1,7 @@
-
 ---
 layout: post
 title: "AI Writes the Code: What's Left for Engineers?"
-date: 2026-10-30 15:04:00 +0700
+date: date: 2026-10-30 14:00:00 +0700
 categories:
   - Software Engineering
 tags:
