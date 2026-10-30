@@ -1,1315 +1,989 @@
-AI Writes the Code. So What's Left for Engineers?
-Memahami Masa Depan Software Engineer di Era AI Coding Agents
+# Memahami Masa Depan Software Engineer di Era AI: Apa yang Tersisa Ketika AI Sudah Bisa Menulis Kode?
 
-Pembicara: Laurie Voss
-Jabatan: Head of Developer Relations at Arize AI, Co-founder of npm
-Topik: Dampak AI Coding Agents terhadap profesi Software Engineer dan masa depan pengembangan perangkat lunak.
+Pembahasan video: **"AI Writes the Code. So What's Left for Engineers?"** — Laurie Voss, Arize AI
 
-1. Pendahuluan
+---
 
-Dalam presentasinya yang berjudul AI Writes the Code. So What's Left for Engineers?, Laurie Voss membahas perubahan besar yang sedang terjadi di dunia software engineering akibat perkembangan AI Coding Agents.
+## 1. Gambaran besar: Apa sebenarnya pesan utama pembicara?
 
-Dahulu, pekerjaan utama seorang software engineer adalah menulis kode, memperbaiki bug, melakukan debugging, dan membangun aplikasi berdasarkan kebutuhan bisnis.
+Ada satu pertanyaan besar yang ingin disampaikan Laurie Voss melalui presentasi ini:
 
-Namun, dengan hadirnya AI Coding Agents seperti GitHub Copilot, Claude Code, Cursor, dan berbagai tools AI lainnya, proses menulis kode menjadi jauh lebih cepat dan murah.
+Jika AI sudah mampu menulis kode dengan cepat, lalu apa pekerjaan yang masih harus dilakukan oleh seorang software engineer?
 
-AI sekarang dapat membantu developer untuk:
+Dahulu, pekerjaan utama seorang software engineer adalah menerjemahkan kebutuhan menjadi kode program. Kita menghabiskan banyak waktu untuk:
 
-Membuat kode dari instruksi bahasa manusia.
-Membuat struktur project.
-Mengimplementasikan fitur baru.
-Memperbaiki bug.
-Menulis unit test.
-Melakukan refactoring.
-Membuat dokumentasi.
-Membantu melakukan code review.
+- Menulis function dan class.
+- Membuat API dan database.
+- Memperbaiki bug.
+- Membuat unit test.
+- Melakukan refactoring.
+- Mengembangkan fitur aplikasi.
 
-Hal ini memunculkan sebuah pertanyaan penting:
+Namun, dengan hadirnya AI coding agents seperti Claude Code, GitHub Copilot, Cursor, dan berbagai AI agent lainnya, sebagian besar aktivitas tersebut mulai bisa dikerjakan oleh AI.
 
-Jika AI sudah bisa menulis kode, lalu apa yang sebenarnya masih harus dikerjakan oleh seorang software engineer?
+Menurut Laurie, perubahan ini akan menggeser nilai seorang software engineer.
 
-Menurut Laurie Voss, pekerjaan software engineer tidak akan sepenuhnya hilang. Namun, peran dan tanggung jawabnya akan berubah.
+Dahulu, perusahaan membutuhkan engineer yang jago menulis kode. Ke depannya, perusahaan akan semakin membutuhkan engineer yang mampu:
 
-Developer yang hanya berfokus pada kemampuan menulis kode akan menghadapi tantangan besar. Sebaliknya, developer yang mampu memahami kebutuhan pengguna, menentukan solusi yang tepat, dan memastikan kualitas produk akan semakin dibutuhkan.
+1. Memahami masalah pengguna.
+2. Menentukan solusi yang tepat.
+3. Mendefinisikan seperti apa solusi yang berkualitas.
+4. Mengarahkan AI untuk membangun solusi tersebut.
+5. Memastikan hasil akhirnya benar-benar memberikan manfaat.
 
-Laurie menyebut peran baru tersebut sebagai Product Engineer.
+Laurie menyebut peran baru ini sebagai **Product Engineer**.
 
-2. Code Menjadi Murah, Tetapi Software Development Tidak Otomatis Menjadi Lebih Cepat
-2.1. Apa maksudnya menulis kode menjadi hampir gratis?
+Supaya lebih mudah dipahami, mari kita bahas satu per satu.
 
-Sebelum adanya AI Coding Agents, developer harus menghabiskan banyak waktu untuk menerjemahkan kebutuhan menjadi kode program.
+---
 
-Contohnya, ketika mendapatkan tugas:
+## 2. Coding menjadi semakin murah karena AI
 
-"Tambahkan fitur autentikasi pengguna menggunakan email dan password."
+`01:19 – 03:04`
 
-Developer harus melakukan beberapa pekerjaan:
+Laurie menjelaskan bahwa AI coding agents telah membuat aktivitas menulis kode menjadi hampir gratis.
 
-Memahami kebutuhan fitur.
-Membuat struktur database.
-Membuat API login dan register.
-Membuat validasi input.
-Mengimplementasikan autentikasi.
-Menangani error.
-Membuat unit test.
-Melakukan debugging.
+Bukan berarti AI benar-benar tidak membutuhkan biaya. AI tetap membutuhkan biaya penggunaan token, infrastruktur, dan layanan komputasi.
 
-Semua pekerjaan tersebut membutuhkan waktu dan tenaga developer.
+Namun, jika dibandingkan dengan waktu yang dahulu dibutuhkan seorang developer untuk menulis kode secara manual, biaya tersebut menjadi relatif sangat kecil.
 
-Sekarang, dengan AI Coding Agents, developer cukup memberikan instruksi yang jelas.
+### Apa dampaknya?
 
-Contohnya:
+Sebelum AI berkembang:
 
-text
-Buatkan fitur autentikasi menggunakan email dan password.
+Misalnya, seorang developer membutuhkan waktu 5 jam untuk membuat sebuah fitur sederhana.
 
-Kebutuhan:
-- User dapat melakukan registrasi.
-- User dapat melakukan login.
-- Password harus di-hash.
-- Gunakan JWT untuk autentikasi.
-- Buat middleware untuk memvalidasi token.
-- Tambahkan validasi input.
-- Buat unit test untuk setiap endpoint.
+Setelah menggunakan AI coding agent, pekerjaan menulis kode tersebut mungkin hanya membutuhkan waktu 30 menit.
 
+Artinya, kemampuan menghasilkan kode meningkat secara signifikan.
 
-AI dapat membantu menghasilkan sebagian besar implementasi tersebut dalam waktu yang jauh lebih singkat.
+Namun, ada masalah yang menarik.
 
-Artinya, biaya dan waktu untuk menghasilkan kode mengalami penurunan yang signifikan.
+Laurie menyebutkan data bahwa developer yang menggunakan autonomous coding agents menghasilkan sekitar 741% lebih banyak kode atau sekitar 8 kali lipat, tetapi kecepatan pengiriman software ke pengguna hanya meningkat sekitar 30%.
 
-Namun, ada satu masalah.
+**Perbandingan produktivitas berdasarkan data yang disampaikan pembicara**
 
-Menulis kode menjadi lebih cepat tidak berarti seluruh proses pengembangan software juga menjadi lebih cepat.
+| Metrik | Peningkatan |
+|---|---|
+| Jumlah kode yang dihasilkan | **8x** (sekitar 741%) |
+| Kecepatan pengiriman software | **+30%** |
 
-2.2. Data peningkatan produktivitas
+*Peningkatan delivery, bukan peningkatan jumlah kode.*
 
-Dalam presentasinya, Laurie menyebutkan data bahwa developer yang menggunakan autonomous coding agents dapat menghasilkan sekitar:
+Angka tersebut merupakan data yang dikutip dalam presentasi, bukan hasil pengukuran universal untuk semua perusahaan.
 
-741% lebih banyak kode.
-Sekitar 8 kali lipat jumlah kode dibandingkan sebelumnya.
-Namun, peningkatan kecepatan pengiriman software hanya sekitar 30%.
+### Mengapa bisa begitu?
 
-Artinya, walaupun jumlah kode meningkat sangat besar, peningkatan software yang benar-benar berhasil dikirim ke production tidak sebanding.
+Karena menulis kode hanyalah salah satu bagian dari proses pengembangan software.
 
-Mengapa hal tersebut terjadi?
+Setelah kode dibuat, masih ada pekerjaan lain:
 
-Karena proses lain dalam software development tidak mengalami peningkatan kecepatan yang sama.
+- Code review.
+- Testing.
+- Validasi kebutuhan.
+- Security checking.
+- Deployment.
+- Monitoring.
+- Maintenance.
 
-Misalnya:
+AI mempercepat proses coding, tetapi proses lainnya belum tentu ikut menjadi lebih cepat.
 
-Aktivitas	Sebelum AI	Setelah AI
-Menulis kode	Lambat	Sangat cepat
-Membuat unit test	Relatif lambat	Lebih cepat
-Code review	Membutuhkan waktu	Masih membutuhkan waktu
-Testing	Membutuhkan waktu	Lebih cepat dengan otomatisasi
-Deployment	Membutuhkan proses	Masih membutuhkan validasi
-Security review	Membutuhkan analisis	Masih membutuhkan validasi
+### Analogi sederhana
 
-Ketika AI menghasilkan kode dalam jumlah besar, manusia tetap harus memastikan bahwa kode tersebut benar, aman, dan sesuai kebutuhan.
+Bayangkan sebuah restoran.
 
-Akibatnya, hambatan berpindah dari proses menulis kode ke proses code review.
+Sebelumnya, koki membutuhkan waktu 30 menit untuk memasak satu pesanan.
 
-2.3. Analogi sederhana
+Kemudian restoran membeli mesin otomatis yang mampu memasak 10 pesanan dalam waktu yang sama.
 
-Bayangkan sebuah restoran yang memiliki satu koki.
-
-Sebelumnya:
-
-Koki membutuhkan waktu 30 menit untuk memasak satu pesanan.
-Pelayan mampu mengantarkan pesanan dalam waktu 5 menit.
-Pelanggan harus menunggu proses memasak.
-
-Kemudian restoran menggunakan mesin otomatis yang mampu memasak 10 pesanan sekaligus.
-
-Sekarang, masalahnya bukan lagi proses memasak.
-
-Masalahnya berpindah ke pelayan yang hanya mampu mengantarkan satu pesanan dalam satu waktu.
-
-Walaupun dapur mampu menghasilkan makanan lebih cepat, pelanggan tetap harus menunggu karena proses pengantaran menjadi hambatan.
-
-Inilah yang terjadi ketika AI mampu menghasilkan kode jauh lebih cepat daripada kemampuan manusia untuk memeriksanya.
-
-3. Code Review Menjadi Bottleneck Baru
-3.1. Mengapa code review menjadi masalah?
-
-Code review adalah proses memeriksa kode yang dibuat oleh developer sebelum kode tersebut digabungkan ke dalam branch utama atau dirilis ke production.
-
-Tujuannya adalah memastikan:
-
-Tidak terdapat bug.
-Logika program sudah benar.
-Kode mudah dipahami.
-Tidak menimbulkan masalah pada sistem lain.
-Tidak melanggar standar coding.
-Tidak menimbulkan celah keamanan.
-Implementasi sesuai kebutuhan bisnis.
-
-Ketika AI menghasilkan ribuan baris kode dalam waktu singkat, developer tetap harus melakukan pemeriksaan.
-
-Masalahnya, kemampuan manusia untuk membaca dan memahami kode memiliki batas.
-
-Dalam presentasinya, Laurie mengutip penelitian Cisco yang menyebutkan bahwa kemampuan manusia untuk melakukan code review secara akurat menurun secara signifikan ketika jumlah kode yang diperiksa melebihi sekitar 450 baris per jam.
-
-Bayangkan AI menghasilkan perubahan kode sebanyak 10.000 baris.
-
-Jika seseorang harus memeriksa semuanya dengan kecepatan tersebut, proses review bisa memakan waktu berhari-hari.
-
-Akibatnya, developer sering kali tidak benar-benar memeriksa seluruh kode yang dihasilkan AI.
-
-Hal ini berbahaya karena kode yang terlihat benar belum tentu benar-benar aman dan sesuai kebutuhan.
-
-3.2. Apakah AI bisa menggantikan code reviewer?
-
-Menurut Laurie, AI memang sudah mulai digunakan untuk melakukan code review.
-
-Namun, AI Reviewer masih memiliki keterbatasan.
-
-Dalam presentasinya, ia menjelaskan bahwa beberapa AI Code Reviewer yang diuji mampu menemukan berbagai bug, tetapi masing-masing menemukan masalah yang berbeda.
-
-Artinya, satu AI Reviewer belum tentu mampu menemukan semua kesalahan.
-
-Selain itu, terdapat perbedaan antara:
-
-Kode yang berhasil melewati automated test.
-Kode yang benar-benar layak untuk di-merge ke dalam repository.
-
-Keduanya tidak selalu sama.
-
-Contohnya:
-
-Sebuah AI membuat fitur pembayaran.
-
-Semua unit test berhasil dijalankan dan hasilnya PASS.
-
-Namun, ternyata:
-
-Format nominal tidak mengikuti aturan bisnis.
-Transaksi bisa diproses dua kali.
-Tidak ada mekanisme rollback.
-Implementasi tidak mengikuti standar arsitektur project.
-Ada potensi kebocoran data pengguna.
-
-Secara teknis, test berhasil.
-
-Namun, secara kualitas software, implementasi tersebut belum tentu layak masuk production.
-
-3.3. Analogi sederhana
-
-Bayangkan seorang siswa mengerjakan ujian matematika.
-
-AI mampu memberikan jawaban dengan cepat.
-
-Kemudian sistem otomatis memeriksa apakah jawaban tersebut sesuai dengan kunci jawaban.
-
-Namun, guru tidak hanya menilai hasil akhir.
-
-Guru juga memperhatikan:
-
-Apakah cara pengerjaannya benar?
-Apakah siswa memahami konsepnya?
-Apakah ada kesalahan logika?
-Apakah metode yang digunakan sesuai?
-
-Begitu juga dengan code review.
-
-Software engineer tidak hanya memastikan kode bisa berjalan, tetapi juga memastikan kode tersebut layak digunakan.
-
-4. Theory of Constraints: Ketika Satu Hambatan Selesai, Hambatan Lain Akan Muncul
-
-Laurie menggunakan konsep dari Eliyahu M. Goldratt yang dikenal sebagai Theory of Constraints.
-
-Konsep ini menjelaskan bahwa setiap sistem memiliki hambatan utama atau bottleneck yang membatasi performa keseluruhan sistem.
-
-Meningkatkan kecepatan bagian lain tidak akan memberikan peningkatan maksimal jika bottleneck utamanya belum diperbaiki.
-
-4.1. Contoh dalam software development
-
-Bayangkan proses pengembangan software memiliki tahapan berikut:
-
-text
-Requirement
-    |
-    v
-Coding
-    |
-    v
-Code Review
-    |
-    v
-Testing
-    |
-    v
-Deployment
-    |
-    v
-Production
-
-
-Sebelum AI hadir, proses coding mungkin menjadi bagian yang paling lama.
-
-Setelah AI hadir, coding menjadi jauh lebih cepat.
-
-Namun, code review masih membutuhkan waktu yang sama.
-
-Akibatnya, antrean kode yang menunggu review semakin panjang.
-
-Jika suatu saat AI sudah mampu melakukan code review dengan sangat baik, bottleneck berikutnya kemungkinan berpindah ke:
-
-Operations.
-Deployment.
-Infrastructure.
-Scalability.
-Security.
-
-Artinya, ketika satu hambatan berhasil diatasi, hambatan berikutnya akan menjadi masalah utama.
-
-4.2. Bottleneck yang mungkin terjadi di masa depan
-A. Operations
-
-Operations berkaitan dengan bagaimana aplikasi dijalankan dan dipelihara.
-
-Contohnya:
-
-Bagaimana melakukan deployment?
-Bagaimana mengatur server?
-Bagaimana melakukan monitoring?
-Bagaimana menangani server yang mengalami gangguan?
-Bagaimana melakukan rollback ketika deployment gagal?
-B. Scalability
-
-Scalability adalah kemampuan aplikasi untuk menangani peningkatan jumlah pengguna dan beban sistem.
-
-Contohnya:
-
-Aplikasi awalnya hanya digunakan oleh 100 pengguna.
-
-Kemudian aplikasi berkembang menjadi 1 juta pengguna.
-
-Engineer harus memastikan bahwa sistem tetap stabil dengan melakukan:
-
-Database optimization.
-Caching.
-Load balancing.
-Horizontal scaling.
-Queue management.
-Infrastructure optimization.
-C. Security
-
-Security berkaitan dengan perlindungan sistem dan data pengguna.
-
-Contohnya:
-
-Bagaimana mencegah SQL Injection?
-Bagaimana mencegah Cross-Site Scripting?
-Bagaimana melindungi data sensitif?
-Bagaimana mengelola authentication dan authorization?
-Bagaimana memastikan sistem tidak mudah diserang?
-
-Menurut Laurie, AI pada akhirnya berpotensi membantu mengotomatisasi sebagian besar pekerjaan tersebut.
-
-Namun, prosesnya membutuhkan waktu dan tidak terjadi secara instan.
-
-5. Hal yang Sulit Digantikan AI: Memahami Apa yang Sebenarnya Dibutuhkan Manusia
-
-Inilah salah satu gagasan paling penting dari presentasi Laurie Voss.
-
-Menurutnya, bagian yang paling sulit diotomatisasi bukanlah menulis kode.
-
-Bagian yang sulit adalah memahami apa yang sebenarnya dibutuhkan oleh manusia dan menentukan seperti apa solusi yang benar-benar baik.
-
-5.1. Requirement tidak selalu menggambarkan kebutuhan sebenarnya
-
-Misalnya, seorang pemilik bisnis mengatakan:
-
-"Saya membutuhkan aplikasi untuk mengelola pesanan pelanggan."
-
-Sekilas, requirement tersebut terdengar sederhana.
-
-Developer mungkin langsung berpikir untuk membuat:
-
-CRUD pesanan.
-Halaman daftar pesanan.
-Form tambah pesanan.
-Form edit pesanan.
-Status pesanan.
-Laporan transaksi.
-
-Namun, apakah semua itu sudah cukup?
+Apakah pelanggan otomatis mendapatkan makanan 10 kali lebih cepat?
 
 Belum tentu.
 
-Developer harus memahami konteks bisnisnya terlebih dahulu.
+Karena:
 
-Contohnya:
+- Pelayan masih harus mencatat pesanan.
+- Kasir masih harus memproses pembayaran.
+- Makanan masih harus diperiksa kualitasnya.
+- Kurir masih harus mengantarkannya.
 
-Kasus A: Bisnis toko roti
+Mesin memasak bukan lagi masalah. Hambatannya berpindah ke bagian lain.
 
-Pemilik toko roti membutuhkan sistem untuk:
+**Inilah fenomena utama yang ingin disampaikan Laurie: ketika coding menjadi lebih cepat, hambatan pengembangan software berpindah ke aktivitas lainnya.**
 
-Mencatat pesanan pelanggan.
-Menentukan jadwal pengambilan.
-Mengelola stok bahan baku.
-Menentukan jumlah produksi harian.
-Mengelola pesanan dalam jumlah besar.
-Kasus B: Bisnis toko sparepart kendaraan
+---
 
-Pemilik bisnis membutuhkan sistem untuk:
+## 3. Bottleneck berpindah dari coding ke code review
 
-Mencatat pesanan pelanggan.
-Memeriksa ketersediaan sparepart.
-Mengelola berbagai jenis dan merek produk.
-Memeriksa kompatibilitas sparepart dengan kendaraan.
-Mengelola pemasok.
+`03:04 – 08:02`
 
-Kedua bisnis sama-sama membutuhkan aplikasi pengelolaan pesanan.
+Bottleneck adalah titik yang menghambat keseluruhan proses pekerjaan.
 
-Namun, kebutuhan sebenarnya sangat berbeda.
+Dalam software development, code review merupakan salah satu bottleneck terbesar ketika AI sudah mampu menghasilkan kode dalam jumlah besar.
 
-Jika developer hanya menerima requirement secara mentah tanpa memahami proses bisnis, aplikasi yang dibuat mungkin bisa berjalan tetapi tidak benar-benar menyelesaikan masalah pengguna.
+### Apa itu code review?
 
-5.2. Mengapa AI kesulitan memahami kebutuhan tersebut?
+Code review adalah proses memeriksa kode yang dibuat oleh developer sebelum kode tersebut digabungkan ke codebase utama atau dirilis ke production.
 
-AI dapat mempelajari banyak pola dari data yang tersedia.
+Tujuannya untuk memastikan:
 
-Namun, ada informasi yang tidak tersedia dalam dokumentasi, database, atau kode program.
+- Logika program sudah benar.
+- Tidak ada bug yang berbahaya.
+- Kode mudah dipahami.
+- Tidak merusak fitur lainnya.
+- Tidak menimbulkan masalah performa.
+- Sudah mengikuti standar arsitektur dan coding convention.
 
-Informasi tersebut berada di dalam pikiran pengguna.
+### Contoh
 
-Misalnya:
+Misalnya, AI membuat fitur pembayaran.
 
-Mengapa proses bisnis dilakukan dengan cara tertentu?
-Mengapa pelanggan lebih menyukai metode pembayaran tertentu?
-Mengapa perusahaan memiliki aturan khusus?
-Apa masalah yang paling sering dihadapi karyawan?
-Apa yang sebenarnya dianggap penting oleh pengguna?
+Kode tersebut terlihat benar dan bahkan berhasil melewati unit test.
 
-Untuk mendapatkan informasi tersebut, engineer perlu berkomunikasi langsung dengan pengguna.
+Tetapi ternyata AI membuat kesalahan pada proses penghitungan total pembayaran ketika pengguna menggunakan diskon dan pajak secara bersamaan.
 
-Caranya melalui:
+Jika tidak diperiksa, kesalahan tersebut bisa menyebabkan kerugian finansial.
 
-Interview.
-Observasi.
-Diskusi.
-User research.
-Analisis proses bisnis.
-Evaluasi feedback pengguna.
+### Mengapa code review menjadi masalah?
 
-AI dapat membantu menganalisis hasil wawancara, tetapi manusia tetap harus mampu menggali informasi yang tepat.
+Bayangkan AI menghasilkan pull request (PR) yang berisi 10.000 baris perubahan kode.
 
-5.3. Analogi sederhana
+Developer tetap harus memeriksa perubahan tersebut.
 
-Bayangkan seseorang meminta seorang arsitek untuk membangun rumah.
+Laurie mengutip penelitian Cisco yang menyatakan bahwa kemampuan manusia dalam memahami dan memeriksa kode menurun drastis ketika volume pemeriksaan melewati sekitar 450 baris per jam.
 
-Pemilik rumah hanya mengatakan:
+Artinya, semakin banyak kode yang dihasilkan AI, semakin besar beban pemeriksaan yang harus ditanggung manusia.
 
-"Saya ingin rumah yang nyaman."
+### Apakah code review bisa sepenuhnya diserahkan kepada AI?
 
-Apakah arsitek bisa langsung membangun rumah?
+Menurut Laurie, belum sepenuhnya.
 
-Tentu tidak.
+AI code reviewer memang dapat menemukan bug, tetapi masing-masing AI reviewer bisa menemukan masalah yang berbeda.
 
-Arsitek perlu bertanya:
+Bahkan, beberapa reviewer AI bisa melewatkan bug yang ditemukan oleh reviewer lainnya.
 
-Berapa jumlah anggota keluarga?
-Apakah membutuhkan ruang kerja?
-Apakah ada anak kecil?
-Apakah membutuhkan garasi?
-Apakah lebih suka rumah terbuka atau tertutup?
-Berapa anggaran pembangunan?
+### Mengapa?
 
-Setelah memahami kebutuhan tersebut, arsitek dapat membuat rancangan yang tepat.
+Karena memahami apakah kode benar-benar layak digabungkan bukan sekadar memastikan kode berhasil dijalankan.
 
-Software engineer juga memiliki tanggung jawab yang sama.
+Seorang senior engineer biasanya juga mempertimbangkan:
 
-Developer bukan hanya pembuat kode, tetapi juga penerjemah kebutuhan manusia menjadi solusi teknologi.
+- Apakah kode sesuai dengan arsitektur aplikasi?
+- Apakah perubahan ini akan mengganggu sistem lain?
+- Apakah ada efek samping?
+- Apakah kode sesuai dengan kebiasaan dan standar tim?
+- Apakah solusi ini tepat untuk kebutuhan bisnis?
+- Ada konteks yang tidak selalu tertulis di dalam repository.
 
-6. Essential Complexity vs Accidental Complexity
+### Contoh nyata
 
-Laurie mengutip pemikiran Fred Brooks, penulis buku The Mythical Man-Month.
+Misalnya, AI membuat endpoint:
+
+```javascript
+app.post("/api/transfer", async (req, res) => {
+  const { from, to, amount } = req.body;
+
+  await transferMoney(from, to, amount);
+
+  res.json({ success: true });
+});
+```
+
+Secara sintaks, kode tersebut terlihat sederhana.
+
+Namun, senior engineer mungkin langsung mempertanyakan:
+
+- Apakah pengguna memiliki hak untuk mengakses rekening `from`?
+- Apakah saldo mencukupi?
+- Bagaimana jika request terkirim dua kali?
+- Bagaimana jika proses transfer berhasil tetapi penyimpanan transaksi gagal?
+- Apakah transaksi database menggunakan mekanisme rollback?
+- Bagaimana jika terjadi request secara bersamaan?
+
+AI bisa menghasilkan kode yang terlihat benar, tetapi belum tentu memahami seluruh konsekuensi dari kode tersebut.
+
+---
+
+## 4. Theory of Constraints: Ketika satu masalah selesai, masalah lain muncul
+
+`08:02 – 09:00`
+
+Laurie memperkenalkan konsep **Theory of Constraints** dari Eliyahu M. Goldratt, yang dijelaskan dalam bukunya berjudul [*The Goal*](https://www.goodreads.com/book/show/113934.The_Goal).
+
+Inti teorinya adalah:
+
+**Setiap sistem memiliki bottleneck utama. Meningkatkan kecepatan bagian lain tidak akan meningkatkan performa keseluruhan secara signifikan jika bottleneck utamanya belum diselesaikan.**
+
+Ketika bottleneck berhasil diperbaiki, biasanya hambatan akan berpindah ke bagian lainnya.
+
+### Contoh dalam software development
+
+**Perpindahan bottleneck dalam proses software development**
+
+1. **Tahap 1 — Coding**
+   *Semakin mudah diotomatisasi*
+
+   AI mampu menghasilkan kode dengan sangat cepat.
+
+2. **Tahap 2 — Code Review**
+   *Bottleneck saat ini*
+
+   Manusia kesulitan memeriksa kode yang dihasilkan AI dalam jumlah besar.
+
+3. **Tahap 3 — Operations**
+   *Bottleneck berikutnya*
+
+   Bagaimana cara deployment, scaling, dan mengelola sistem?
+
+4. **Tahap 4 — Security**
+   *Bottleneck selanjutnya*
+
+   Bagaimana memastikan aplikasi aman, data terlindungi, dan sistem tidak disalahgunakan?
+
+5. **Tahap 5 — Product Understanding**
+   *Peran manusia yang diprediksi tetap penting*
+
+   Menentukan apa yang sebenarnya dibutuhkan pengguna dan seperti apa solusi yang tepat.
+
+Laurie memperkirakan bahwa code review, operations, dan security secara bertahap akan semakin bisa diotomatisasi oleh AI.
+
+Namun, ia berpendapat bahwa memahami kebutuhan manusia dan menentukan definisi kualitas akan menjadi hambatan yang jauh lebih sulit untuk diotomatisasi.
+
+Perlu dicatat bahwa ini adalah prediksi Laurie, bukan kepastian bahwa semua pekerjaan tersebut akan sepenuhnya digantikan AI.
+
+---
+
+## 5. Hal yang sulit digantikan AI: Memahami kebutuhan manusia
+
+`11:21 – 13:45`
+
+Inilah salah satu bagian paling penting dalam presentasi.
+
+Menurut Laurie, AI bisa membantu membuat software, tetapi belum tentu mengetahui software seperti apa yang sebenarnya dibutuhkan seseorang.
+
+### Mengapa?
+
+Karena kebutuhan pengguna sering kali tidak bisa dijelaskan hanya melalui instruksi teknis.
+
+### Contoh: Aplikasi pencatatan pesanan
+
+Bayangkan seorang pemilik toko berkata:
+
+> "Saya ingin aplikasi untuk mencatat pesanan pelanggan."
+
+Instruksi tersebut terdengar sederhana.
+
+Seorang developer mungkin langsung berpikir untuk membuat:
+
+- Form input pesanan.
+- Database pesanan.
+- Halaman daftar pesanan.
+- Fitur update status pesanan.
+- Fitur pencarian pesanan.
+
+AI bisa membuat semua fitur tersebut.
+
+Tetapi apakah aplikasi itu sudah sesuai kebutuhan pemilik toko?
+
+Belum tentu.
+
+Mari kita lihat tiga jenis bisnis yang berbeda.
+
+**Bisnis bakery**
+
+Pemilik toko membutuhkan pencatatan pesanan kue berdasarkan tanggal pengambilan, jenis kue, ukuran, dan permintaan khusus pelanggan.
+
+**Toko spare part**
+
+Pemilik toko membutuhkan pencatatan pesanan berdasarkan nomor part, kompatibilitas kendaraan, jumlah stok, dan supplier.
+
+**Perusahaan manufaktur**
+
+Perusahaan membutuhkan pencatatan pesanan berdasarkan spesifikasi produk, kapasitas produksi, bahan baku, dan jadwal pengiriman.
+
+Ketiganya sama-sama membutuhkan sistem pencatatan pesanan.
+
+Tetapi kebutuhan bisnis, aturan operasional, dan definisi keberhasilannya sangat berbeda.
+
+Inilah mengapa developer tidak boleh hanya menerima requirement lalu langsung coding.
+
+Developer perlu menggali informasi lebih dalam.
+
+### Apa yang harus dilakukan developer?
+
+Misalnya, ketika bertemu dengan pemilik bakery, jangan hanya bertanya:
+
+> "Fitur apa yang Anda inginkan?"
+
+Cobalah bertanya:
+
+- Bagaimana proses pemesanan kue saat ini?
+- Apa masalah terbesar yang sering terjadi?
+- Bagaimana cara mencatat pesanan custom?
+- Bagaimana jika pelanggan mengubah tanggal pengambilan?
+- Bagaimana cara mengetahui kapasitas produksi harian?
+- Informasi apa yang paling penting bagi karyawan toko?
+
+Dari jawaban tersebut, developer dapat memahami masalah sebenarnya.
+
+**Intinya: pengguna sering menyampaikan solusi yang mereka bayangkan, sedangkan tugas engineer adalah menemukan masalah yang sebenarnya perlu diselesaikan.**
+
+---
+
+## 6. Essential Complexity vs Accidental Complexity
+
+`13:45 – 16:34`
+
+Laurie mengutip pemikiran Fred Brooks, penulis buku *The Mythical Man-Month*.
 
 Brooks membagi kompleksitas software menjadi dua jenis.
 
-6.1. Accidental Complexity
+### A. Accidental Complexity
 
-Accidental Complexity adalah kesulitan yang muncul akibat penggunaan tools, bahasa pemrograman, framework, atau proses teknis.
-
-Contohnya:
-
-Menulis syntax JavaScript.
-Mengatur konfigurasi framework.
-Membuat struktur folder.
-Menulis boilerplate code.
-Mengatur konfigurasi API.
-Membuat konfigurasi database.
-Menulis kode repetitif.
-
-Kesulitan seperti ini semakin mudah dikurangi dengan bantuan AI.
-
-Misalnya, dahulu developer harus menulis kode berikut secara manual:
-
-javascript
-function add(a, b) {
-    return a + b;
-}
-
-
-Sekarang developer cukup meminta AI untuk membuat fungsi tersebut.
-
-Bahkan, AI dapat membuat implementasi yang jauh lebih kompleks.
-
-6.2. Essential Complexity
-
-Essential Complexity adalah kompleksitas yang berasal dari masalah sebenarnya yang ingin diselesaikan.
+Kompleksitas yang muncul karena keterbatasan tools, bahasa pemrograman, atau cara kita mengimplementasikan sesuatu.
 
 Contohnya:
 
-Menentukan bagaimana sistem pembayaran bekerja.
-Menentukan aturan bisnis.
-Menentukan bagaimana stok barang dikelola.
-Menentukan alur persetujuan transaksi.
-Menentukan bagaimana sistem menangani transaksi bersamaan.
-Menentukan bagaimana pengalaman pengguna seharusnya berjalan.
+- Mengingat sintaks JavaScript.
+- Menulis boilerplate code.
+- Membuat konfigurasi proyek.
+- Menulis kode CRUD.
+- Mengatur struktur folder.
+- Menghubungkan library.
+- Menulis kode repetitif.
 
-Hal-hal tersebut tidak bisa diselesaikan hanya dengan mengetahui syntax atau framework.
+Hal-hal tersebut relatif mudah dibantu atau diotomatisasi oleh AI.
 
-Developer harus memahami masalah dan konteksnya.
+Contoh:
 
-6.3. Perbandingan
-Aspek	Accidental Complexity	Essential Complexity
-Sumber masalah	Tools dan implementasi teknis	Masalah bisnis dan kebutuhan pengguna
-Contoh	Syntax, boilerplate, konfigurasi	Business logic, workflow, aturan bisnis
-Bantuan AI	Sangat besar	Membantu, tetapi membutuhkan konteks
-Fokus developer	Implementasi teknis	Pemahaman masalah dan solusi
-Nilai jangka panjang	Semakin mudah diotomatisasi	Tetap membutuhkan penilaian dan pemahaman mendalam
-6.4. Kesimpulan konsep
+Dahulu developer perlu menulis kode API secara manual.
 
-AI semakin mampu menyelesaikan masalah teknis dalam penulisan kode.
+Sekarang kita bisa meminta AI:
 
-Namun, AI tidak otomatis mengetahui apakah solusi yang dibuat benar-benar menyelesaikan masalah pengguna.
+```text
+Buatkan REST API untuk manajemen produk
+menggunakan Express.js dan PostgreSQL.
 
-Karena itu, nilai seorang engineer akan semakin bergeser dari kemampuan menulis kode menuju kemampuan memahami masalah yang kompleks.
+Buat endpoint:
+- GET /products
+- GET /products/:id
+- POST /products
+- PUT /products/:id
+- DELETE /products/:id
 
-7. Specification Menjadi Sangat Penting
+Sertakan validasi input dan error handling.
+```
 
-Laurie juga menyampaikan pemikiran bahwa kode merupakan representasi dari specification atau spesifikasi kebutuhan.
+AI bisa membantu menghasilkan sebagian besar implementasinya.
+
+### B. Essential Complexity
+
+Kompleksitas yang memang berasal dari masalah yang ingin diselesaikan.
+
+Contohnya:
+
+- Bagaimana menentukan harga produk?
+- Bagaimana menangani refund?
+- Bagaimana menghitung biaya pengiriman?
+- Bagaimana mengelola stok barang?
+- Bagaimana menghindari transaksi ganda?
+- Bagaimana menentukan hak akses pengguna?
+- Bagaimana sistem harus bekerja ketika terjadi kegagalan?
+
+Ini lebih sulit karena membutuhkan pemahaman terhadap konteks bisnis dan konsekuensi keputusan.
+
+### Perbandingan sederhana
+
+| Accidental Complexity | Essential Complexity |
+|---|---|
+| Bagaimana menulis kode? | Apa yang harus dibuat? |
+| Bagaimana membuat API? | API harus menyelesaikan masalah apa? |
+| Bagaimana membuat database? | Data apa yang perlu disimpan? |
+| Bagaimana membuat validasi? | Aturan bisnis apa yang harus divalidasi? |
+| Bagaimana memperbaiki syntax error? | Apakah solusi yang dibuat sudah benar? |
+
+### Analogi
+
+Bayangkan Anda diminta membangun sebuah rumah.
+
+**Accidental complexity** adalah bagaimana menggunakan palu, memasang bata, mengukur kayu, dan mencampur semen.
+
+**Essential complexity** adalah menentukan:
+
+- Rumah tersebut untuk siapa?
+- Berapa jumlah penghuninya?
+- Berapa jumlah kamar yang diperlukan?
+- Apakah harus tahan banjir?
+- Bagaimana sirkulasi udara?
+- Bagaimana desainnya agar nyaman?
+
+AI dapat membantu proses pembangunan rumah menjadi lebih cepat.
+
+Namun, jika desain rumahnya salah sejak awal, pembangunan yang cepat justru akan menghasilkan rumah yang salah dengan lebih cepat.
+
+**Kesimpulannya, AI sangat membantu mengurangi kesulitan teknis dalam coding, tetapi menentukan solusi yang tepat tetap membutuhkan pemahaman masalah yang mendalam.**
+
+---
+
+## 7. Product Engineer: Peran baru seorang software engineer
+
+`16:34 – 19:45`
+
+Inilah konsep utama yang diperkenalkan Laurie.
+
+Ia menyebut peran baru tersebut sebagai **Product Engineer**.
+
+Product Engineer adalah engineer yang tidak hanya bertanggung jawab menulis kode, tetapi juga memahami pengguna, menemukan masalah, menentukan solusi, dan memastikan software yang dibuat memberikan nilai nyata.
 
 Dengan kata lain:
 
-Kode adalah hasil penerjemahan dari spesifikasi.
+**Product Engineer adalah seseorang yang menggabungkan kemampuan software engineering dengan pemahaman produk dan bisnis.**
 
-Jika spesifikasinya salah, kode yang dihasilkan juga berpotensi salah.
+### Perbedaan Software Engineer tradisional dan Product Engineer
 
-Bahkan, AI bisa menghasilkan implementasi yang sangat rapi dan terlihat profesional, tetapi tetap tidak berguna jika requirement yang diberikan tidak tepat.
+| Software Engineer tradisional | Product Engineer |
+|---|---|
+| Menerima task dari PM | Ikut menemukan kebutuhan pengguna |
+| Fokus implementasi | Fokus hasil dan dampak |
+| Menerjemahkan requirement ke kode | Mengubah masalah menjadi spesifikasi |
+| Menyelesaikan tiket | Menyelesaikan masalah pengguna |
+| Banyak menulis kode manual | Mengarahkan AI untuk membangun solusi |
+| Mengukur jumlah pekerjaan selesai | Mengukur keberhasilan produk |
 
-7.1. Contoh specification yang buruk
-text
-Buatkan fitur pembayaran untuk aplikasi e-commerce.
+Perlu dipahami bahwa ini merupakan perbandingan model kerja yang disederhanakan, bukan berarti software engineer tradisional tidak pernah memahami produk.
 
+### Contoh kasus nyata
 
-Instruksi tersebut terlalu umum.
+Misalnya, Anda bekerja di perusahaan e-commerce.
 
-AI harus menebak banyak hal, seperti:
+Product Manager memberikan tiket:
 
-Metode pembayaran yang digunakan.
-Apakah pembayaran harus langsung diproses?
-Bagaimana menangani pembayaran gagal?
-Bagaimana menangani transaksi duplikat?
-Apakah pembayaran dapat dikembalikan?
-Bagaimana status transaksi disimpan?
-Bagaimana sistem melakukan verifikasi pembayaran?
+```text
+Task:
+Implementasikan fitur voucher diskon.
 
-Akibatnya, hasil implementasi mungkin tidak sesuai kebutuhan.
+Requirement:
+- User bisa memasukkan kode voucher.
+- Sistem menghitung diskon.
+- Diskon ditampilkan pada checkout.
+```
 
-7.2. Contoh specification yang lebih baik
-text
-Buatkan fitur pembayaran untuk aplikasi e-commerce.
+Seorang developer yang hanya berorientasi pada implementasi mungkin langsung meminta AI membuat fitur tersebut.
 
-Business Requirements:
+Sementara Product Engineer akan menggali lebih dalam:
 
-1. User dapat melakukan checkout.
-2. Sistem harus membuat transaksi dengan status PENDING.
-3. Sistem harus mengirimkan permintaan pembayaran ke payment gateway.
-4. Sistem harus menerima webhook dari payment gateway.
-5. Status transaksi berubah menjadi PAID ketika pembayaran berhasil.
-6. Status transaksi berubah menjadi FAILED ketika pembayaran gagal.
-7. Sistem tidak boleh memproses pembayaran yang sama lebih dari satu kali.
-8. Semua perubahan status transaksi harus tercatat.
+- Apakah voucher berlaku untuk semua produk?
+- Apakah ada minimum pembelian?
+- Apakah voucher bisa digunakan bersamaan?
+- Apakah voucher memiliki batas penggunaan?
+- Bagaimana jika voucher kedaluwarsa ketika pengguna checkout?
+- Bagaimana jika dua pengguna menggunakan kuota terakhir secara bersamaan?
+- Apakah voucher bisa digunakan untuk produk yang sedang diskon?
 
-Technical Requirements:
+Setelah memahami aturan tersebut, Product Engineer menyusun spesifikasi yang jelas.
 
-1. Gunakan REST API.
-2. Gunakan PostgreSQL.
-3. Terapkan idempotency untuk mencegah transaksi duplikat.
-4. Validasi signature webhook.
-5. Tambahkan unit test dan integration test.
+Kemudian AI digunakan untuk membantu:
 
-Acceptance Criteria:
+- Mendesain database.
+- Membuat API.
+- Membuat business logic.
+- Menulis unit test.
+- Membuat integration test.
+- Menyusun dokumentasi.
 
-1. Transaksi berhasil ketika pembayaran dikonfirmasi.
-2. Transaksi gagal ketika pembayaran ditolak.
-3. Webhook yang dikirim berulang tidak menghasilkan transaksi ganda.
-4. Transaksi yang belum dibayar tidak boleh berstatus PAID.
+Engineer tetap bertanggung jawab terhadap keputusan dan hasil akhirnya.
 
+### Alur kerja Product Engineer
 
-Dengan specification yang lebih jelas, AI dapat menghasilkan implementasi yang lebih sesuai.
+1. **Memahami pengguna**
+   Mengidentifikasi masalah dan kebutuhan sebenarnya.
 
-7.3. Analogi sederhana
+   ↓
 
-Bayangkan Anda meminta seorang kontraktor membangun rumah.
+2. **Membuat spesifikasi (spec)**
+   Menentukan fitur, aturan bisnis, batasan, dan kriteria keberhasilan.
 
-Instruksi pertama:
+   ↓
 
-"Buatkan rumah yang bagus."
+3. **AI Coding Agent**
+   Membantu menulis kode, test, dokumentasi, dan implementasi.
 
-Instruksi kedua:
+   ↓
 
-"Buatkan rumah dua lantai dengan tiga kamar tidur, dua kamar mandi, satu ruang keluarga, garasi untuk dua mobil, ventilasi yang baik, dan anggaran maksimal 500 juta."
+4. **Validasi dan evaluasi**
+   Memastikan implementasi sesuai kebutuhan dan aman.
 
-Instruksi kedua memberikan informasi yang jauh lebih jelas.
+   ↓
 
-Hasil pekerjaan pun memiliki kemungkinan lebih besar untuk sesuai harapan.
+5. **Release ke production**
+   Meluncurkan produk dan memantau dampaknya kepada pengguna.
 
-Begitu juga dengan AI Coding Agents.
+Ada satu kalimat penting dari Laurie:
 
-Semakin baik specification yang diberikan, semakin besar peluang AI menghasilkan solusi yang benar.
+> Engineer yang memahami pengguna, bisa mengambil keputusan tentang apa yang harus dibangun, dan langsung membangunnya akan mampu bekerja dengan sangat cepat.
 
-8. Munculnya Peran Baru: Product Engineer
+---
 
-Setelah menjelaskan perubahan tersebut, Laurie memperkenalkan sebuah peran yang disebut Product Engineer.
+## 8. Masalah besar: Bagaimana nasib Junior Developer?
 
-Product Engineer adalah engineer yang tidak hanya bertugas menulis kode, tetapi juga memahami pengguna, menemukan masalah, menentukan solusi, dan memastikan software yang dibuat benar-benar memberikan nilai.
+`19:45 – 22:57`
 
-8.1. Perbedaan Programmer dan Product Engineer
-Programmer Tradisional	Product Engineer
-Fokus pada penulisan kode	Fokus pada penyelesaian masalah
-Mengerjakan task yang diberikan	Ikut menentukan task yang perlu dibuat
-Mengikuti specification	Membantu menyusun specification
-Berorientasi pada implementasi	Berorientasi pada hasil produk
-Mengukur jumlah kode	Mengukur dampak terhadap pengguna
-Mengandalkan kemampuan coding	Menggabungkan technical skill dan product thinking
-Menggunakan tools untuk menulis kode	Menggunakan AI untuk mempercepat implementasi
+Menurut saya, ini adalah bagian yang paling perlu diperhatikan oleh developer junior.
 
-Perlu dipahami bahwa Product Engineer bukan berarti tidak perlu memiliki kemampuan programming.
+Laurie mengangkat sebuah masalah yang cukup serius: bagaimana perusahaan akan melatih junior developer jika pekerjaan yang dahulu diberikan kepada junior sekarang bisa dikerjakan AI?
 
-Justru kemampuan teknis tetap penting.
+### Bagaimana sistem pembelajaran junior developer sebelumnya?
 
-Namun, kemampuan tersebut digunakan sebagai alat untuk menghasilkan solusi, bukan menjadi satu-satunya fokus pekerjaan.
+Biasanya, perjalanan seorang junior developer seperti ini:
 
-8.2. Tanggung jawab Product Engineer
+1. Senior memberikan task yang spesifik.
+2. Junior mengerjakan task tersebut.
+3. Junior membuat pull request.
+4. Senior melakukan code review.
+5. Senior memberikan masukan dan koreksi.
+6. Junior memperbaiki kesalahan dan belajar dari pengalaman.
 
-Seorang Product Engineer idealnya mampu:
+Misalnya, senior memberikan task:
 
-Memahami kebutuhan pengguna.
-Melakukan diskusi dengan stakeholder.
-Mengidentifikasi masalah bisnis.
-Menentukan prioritas fitur.
-Membuat specification.
-Menentukan acceptance criteria.
-Menggunakan AI Coding Agents untuk implementasi.
-Melakukan evaluasi hasil AI.
-Memastikan kualitas software.
-Mengukur dampak produk terhadap pengguna.
-8.3. Contoh penerapan
+```text
+Buat REST API untuk CRUD data customer
+menggunakan Express.js.
 
-Misalnya, sebuah perusahaan ingin membuat aplikasi manajemen inventaris.
+Gunakan PostgreSQL.
+Tambahkan validasi input.
+Buat unit test.
+```
 
-Developer dengan pendekatan tradisional mungkin langsung menerima task:
+Junior mengerjakan task tersebut dan belajar dari kesalahan.
 
-text
-Buat CRUD barang.
+Namun, sekarang AI bisa mengerjakan task yang sama dalam waktu singkat.
 
+Artinya, perusahaan mulai mempertanyakan:
 
-Kemudian developer mulai membuat:
+> "Kalau AI bisa mengerjakan pekerjaan junior, untuk apa kita merekrut banyak junior developer?"
 
-Endpoint GET.
-Endpoint POST.
-Endpoint PUT.
-Endpoint DELETE.
-Database table.
-Frontend form.
+Inilah yang disebut Laurie sebagai **masalah junior developer**.
 
-Namun, seorang Product Engineer akan bertanya lebih dahulu:
+### Dampaknya terhadap industri
 
-Siapa yang menggunakan aplikasi ini?
-Apakah barang memiliki banyak lokasi penyimpanan?
-Apakah stok harus diperbarui secara real-time?
-Bagaimana jika dua karyawan mengambil barang secara bersamaan?
-Apakah perusahaan membutuhkan stock opname?
-Bagaimana proses barang masuk dan keluar?
-Bagaimana menangani stok yang rusak?
-Informasi apa yang dibutuhkan oleh manajer?
+Dalam presentasinya, Laurie menunjukkan data statistik ketenagakerjaan Amerika Serikat sejak Januari 2023.
 
-Setelah mendapatkan jawaban, Product Engineer menyusun specification dan menggunakan AI untuk membantu mengimplementasikannya.
+Ia menyampaikan bahwa:
 
-Hasilnya bukan hanya aplikasi CRUD, tetapi sistem yang benar-benar sesuai dengan proses bisnis perusahaan.
+- Lapangan pekerjaan untuk engineer usia 22–25 tahun mengalami penurunan.
+- Pekerjaan untuk engineer usia 41–49 tahun justru meningkat.
+- Senior engineer tetap memiliki nilai yang tinggi.
+- Junior developer semakin kesulitan mendapatkan pekerjaan.
 
-9. Tantangan Besar: Masa Depan Junior Developer
+Perlu dicatat, data tersebut menggambarkan kondisi pasar tenaga kerja yang dibahas dalam presentasi, bukan gambaran pasti seluruh negara atau semua perusahaan.
 
-Salah satu bagian yang cukup mengkhawatirkan dari presentasi Laurie adalah dampak AI terhadap junior developer.
+### Mengapa ini menjadi masalah besar?
 
-9.1. Bagaimana junior developer biasanya belajar?
+Karena senior engineer tidak muncul begitu saja.
 
-Secara tradisional, perusahaan memberikan task sederhana kepada junior developer.
+Senior engineer berasal dari junior developer yang mendapatkan kesempatan untuk belajar, melakukan kesalahan, memperbaiki kode, dan memahami sistem secara bertahap.
 
-Contohnya:
+Jika perusahaan berhenti merekrut junior, siapa yang akan menjadi senior engineer lima atau sepuluh tahun mendatang?
 
-Membuat endpoint CRUD.
-Membuat form login.
-Memperbaiki bug sederhana.
-Membuat unit test.
-Menambahkan validasi.
-Melakukan refactoring kecil.
+Inilah masalah regenerasi talenta yang disoroti Laurie.
 
-Kemudian senior developer akan melakukan code review dan memberikan feedback.
+### Bagaimana seharusnya junior developer belajar?
 
-Melalui proses tersebut, junior developer belajar:
+Menurut arah pemikiran Laurie, junior developer perlu mulai dilatih bukan hanya untuk menulis kode, tetapi juga untuk memahami masalah dan kebutuhan pengguna.
 
-Struktur project.
-Clean code.
-Software architecture.
-Debugging.
-Testing.
-Best practices.
-Cara berpikir seorang engineer.
+Misalnya, daripada hanya diberikan task:
 
-Dengan kata lain, pekerjaan sederhana merupakan sarana pembelajaran untuk menjadi senior engineer.
+```text
+Buat halaman dashboard menggunakan React.
+```
 
-9.2. Mengapa pola tersebut mulai berubah?
+Junior bisa diberikan tugas yang lebih komprehensif:
 
-Sekarang AI dapat mengerjakan sebagian besar task sederhana tersebut.
+```text
+Pelajari proses bisnis toko terlebih dahulu.
 
-Ketika senior developer membutuhkan implementasi CRUD, mereka bisa langsung meminta AI untuk membuatnya.
+Cari tahu masalah yang dialami pemilik toko
+ketika mengelola stok barang.
 
-Akibatnya, perusahaan mungkin merasa tidak perlu lagi merekrut banyak junior developer untuk mengerjakan pekerjaan dasar.
+Identifikasi kebutuhan pengguna.
 
-Inilah yang disebut sebagai masalah junior developer.
+Buat spesifikasi solusi.
 
-Laurie juga menunjukkan data ketenagakerjaan dalam presentasinya yang menggambarkan penurunan pekerjaan engineer berusia 22–25 tahun, sementara kelompok usia 41–49 tahun mengalami peningkatan.
-
-Data tersebut digunakan untuk menunjukkan bahwa dampak perubahan ini sudah mulai terlihat di pasar tenaga kerja.
-
-9.3. Mengapa hal ini berbahaya?
-
-Jika perusahaan hanya merekrut senior engineer dan berhenti memberikan kesempatan kepada junior developer, maka akan muncul masalah jangka panjang.
-
-Pertanyaannya:
-
-Dari mana senior engineer generasi berikutnya akan berasal?
-
-Senior engineer tidak muncul secara otomatis.
-
-Mereka berasal dari junior developer yang mendapatkan kesempatan untuk belajar dan berkembang.
-
-Jika jalur pembelajaran tersebut hilang, industri software engineering berpotensi mengalami kekurangan engineer berpengalaman di masa depan.
-
-9.4. Analogi sederhana
-
-Bayangkan sebuah perusahaan konstruksi.
-
-Dahulu, seorang pekerja baru belajar dengan membantu pekerjaan sederhana:
-
-Mengukur material.
-Membantu pemasangan.
-Menyiapkan peralatan.
-Mengikuti instruksi senior.
-
-Setelah bertahun-tahun, pekerja tersebut mampu menjadi mandor atau engineer berpengalaman.
-
-Namun, jika semua pekerjaan dasar digantikan mesin dan perusahaan tidak menyediakan cara baru untuk melatih pekerja pemula, maka perusahaan akan kesulitan mendapatkan tenaga ahli di masa depan.
-
-Hal yang sama dapat terjadi di dunia software engineering.
-
-9.5. Bagaimana cara mengatasi masalah ini?
-
-Menurut Laurie, perusahaan perlu mengubah cara melatih junior developer.
-
-Junior developer tidak cukup hanya dilatih untuk menulis kode.
-
-Mereka juga perlu dilatih untuk:
-
-Berkomunikasi dengan pengguna.
-Memahami proses bisnis.
-Mengidentifikasi masalah.
-Menyusun requirement.
-Membuat specification.
-Menentukan acceptance criteria.
-Menggunakan AI secara efektif.
-Mengevaluasi kualitas hasil AI.
-
-Artinya, jalur pengembangan karier harus mulai diarahkan menuju kemampuan Product Engineering.
-
-10. Apakah Kemampuan Programming Akan Hilang?
-
-Tidak.
-
-Laurie menjelaskan bahwa masih akan ada orang yang menulis kode karena mereka memang menyukai aktivitas tersebut.
-
-Ada developer yang menikmati:
-
-Menyelesaikan algoritma yang sulit.
-Membuat abstraksi yang elegan.
-Memperbaiki bug yang kompleks.
-Merancang arsitektur.
-Mengoptimalkan performa.
-Menulis kode yang bersih.
-
-Aktivitas tersebut tetap memiliki nilai dan tidak akan hilang begitu saja.
-
-Namun, Laurie berpendapat bahwa menulis kode secara manual kemungkinan tidak lagi menjadi pekerjaan utama yang paling dihargai oleh perusahaan.
-
-Ia menggunakan analogi woodworking atau pertukangan.
-
-Ketika industri manufaktur furniture berkembang, pekerjaan membuat furniture secara manual tidak menghilang.
-
-Orang masih membuat furniture dengan tangan karena menyukai proses dan keahliannya.
-
-Namun, produksi massal lebih banyak menggunakan mesin.
-
-Begitu juga dengan programming.
-
-Orang tetap bisa menulis kode secara manual karena menyukai prosesnya, tetapi pekerjaan profesional di industri akan semakin banyak melibatkan AI.
-
-Programming mungkin berubah dari aktivitas utama menjadi salah satu kemampuan yang digunakan untuk mengarahkan dan mengevaluasi hasil AI.
-
-11. Apa yang Harus Dilakukan Developer Mulai Sekarang?
-
-Bagian ini merupakan salah satu bagian paling praktis dari presentasi Laurie.
-
-Ia memberikan beberapa arahan mengenai bagaimana engineer sebaiknya beradaptasi dengan perubahan tersebut.
-
-11.1. Mulai terbiasa bekerja dengan AI Coding Agents
-
-Jangan menganggap AI hanya sebagai alat untuk bertanya atau mencari contoh kode.
-
-Mulailah menggunakannya sebagai bagian dari workflow development.
-
-Contoh tools yang dapat dipelajari:
-
-GitHub Copilot.
-Cursor.
-Claude Code.
-OpenAI Codex.
-Windsurf.
-
-Pelajari bagaimana memberikan instruksi, memberikan konteks repository, menjalankan test, dan mengevaluasi hasil implementasi.
-
-Tujuannya bukan sekadar menghasilkan kode sebanyak mungkin.
-
-Tujuannya adalah menyelesaikan pekerjaan dengan lebih efektif.
-
-11.2. Fokus pada kode yang memiliki dampak besar jika terjadi kesalahan
-
-Laurie menyarankan agar developer memberikan perhatian lebih besar pada kode yang memiliki high blast radius.
-
-High blast radius adalah bagian sistem yang apabila mengalami kesalahan dapat menyebabkan dampak besar terhadap keseluruhan aplikasi atau bisnis.
-
-Contohnya:
-
-Authentication.
-Authorization.
-Payment processing.
-Database transaction.
-Data migration.
-Infrastructure configuration.
-Security-sensitive logic.
-
-Bagian tersebut membutuhkan pengawasan dan evaluasi lebih ketat.
-
-Sementara itu, pekerjaan yang relatif sederhana dan mudah diverifikasi dapat lebih banyak didelegasikan kepada AI.
-
-11.3. Otomatiskan proses verifikasi
-
-Daripada memeriksa semua kode secara manual, engineer perlu membangun sistem otomatis untuk memeriksa kualitas hasil pekerjaan AI.
-
-Contohnya:
-
-Unit testing.
-Integration testing.
-End-to-end testing.
-Static code analysis.
-Linting.
-Type checking.
-Security scanning.
-Performance testing.
-
-Contoh sederhana:
-
-text
-AI Agent
-   |
-   v
-Generate Code
-   |
-   v
-Run Unit Tests
-   |
-   v
-Run Integration Tests
-   |
-   v
-Run Security Scan
-   |
-   v
-Check Code Quality
-   |
-   v
-Human Review
-   |
-   v
-Deploy
-
-
-Dengan cara ini, developer tidak harus memeriksa setiap detail kode dari awal.
-
-Namun, hasil pemeriksaan otomatis tetap perlu dievaluasi, terutama untuk bagian yang memiliki risiko tinggi.
-
-11.4. Tingkatkan kemampuan membuat specification
-
-Ini adalah salah satu kemampuan yang paling penting untuk dikembangkan.
-
-Belajarlah membuat requirement yang jelas dan terukur.
-
-Specification yang baik setidaknya menjelaskan:
-
-Problem Statement.
-User Requirements.
-Business Rules.
-Functional Requirements.
-Non-Functional Requirements.
-Technical Constraints.
-Acceptance Criteria.
-Edge Cases.
-
-Contoh:
-
-Jangan hanya mengatakan:
-
-text
-Buatkan fitur login.
-
-
-Tetapi jelaskan:
-
-text
-Problem:
-Pengguna membutuhkan mekanisme autentikasi untuk mengakses aplikasi.
-
-Functional Requirements:
-- User dapat login menggunakan email dan password.
-- User mendapatkan access token setelah berhasil login.
-- User mendapatkan pesan error ketika kredensial salah.
-
-Security Requirements:
-- Password harus disimpan menggunakan hashing.
-- Token harus memiliki masa berlaku.
-- Endpoint yang membutuhkan autentikasi harus memvalidasi token.
-
-Acceptance Criteria:
-- Login berhasil dengan kredensial yang benar.
-- Login gagal dengan kredensial yang salah.
-- User yang tidak terautentikasi tidak dapat mengakses endpoint private.
-- Password tidak pernah dikembalikan melalui API response.
-
-
-Semakin baik specification, semakin kecil kemungkinan AI menghasilkan implementasi yang salah arah.
-
-11.5. Pelajari business domain
-
-Jangan hanya memahami teknologi.
-
-Mulailah memahami bisnis tempat software tersebut digunakan.
-
-Contohnya:
-
-Jika bekerja di perusahaan e-commerce, pelajari:
-
-Order management.
-Payment processing.
-Inventory management.
-Shipping.
-Refund.
-Customer experience.
-
-Jika bekerja di perusahaan fintech, pelajari:
-
-Financial transactions.
-Reconciliation.
-Fraud detection.
-Risk management.
-Compliance.
-
-Jika bekerja di perusahaan logistik, pelajari:
-
-Shipment tracking.
-Warehouse management.
-Delivery scheduling.
-Fleet management.
-
-Semakin memahami domain bisnis, semakin baik kemampuan developer dalam membuat solusi yang tepat.
-
-11.6. Tingkatkan kemampuan komunikasi
-
-Seorang Product Engineer harus mampu berdiskusi dengan orang yang tidak memiliki latar belakang teknis.
-
-Misalnya:
-
-Product Manager.
-Business Analyst.
-Customer.
-Stakeholder.
-Operations Team.
-Marketing Team.
-
-Developer perlu mampu mengubah kebutuhan yang tidak jelas menjadi requirement yang dapat diimplementasikan.
-
-Kemampuan bertanya menjadi sangat penting.
-
-Contohnya:
-
-Ketika pengguna mengatakan:
-
-"Sistem ini lambat."
-
-Jangan langsung melakukan optimasi database.
-
-Tanyakan terlebih dahulu:
-
-Bagian mana yang terasa lambat?
-Sejak kapan masalah terjadi?
-Apakah semua pengguna mengalami masalah?
-Apakah terjadi pada jam tertentu?
-Berapa lama waktu respons yang diharapkan?
-
-Dengan demikian, developer dapat menemukan akar masalah sebelum menentukan solusi.
-
-11.7. Ukur hasil, bukan jumlah kode
-
-Laurie menekankan bahwa menghasilkan 741% lebih banyak kode bukanlah tujuan utama.
-
-Yang lebih penting adalah berapa banyak software yang benar-benar berhasil dikirim dan memberikan manfaat.
-
-Beberapa metrik yang dapat digunakan:
-
-Metrik	Tujuan
-Deployment Frequency	Mengukur seberapa sering software dirilis
-Lead Time for Changes	Mengukur waktu dari perubahan kode hingga dirilis
-Change Failure Rate	Mengukur persentase perubahan yang menyebabkan kegagalan
-Mean Time to Recovery (MTTR)	Mengukur waktu pemulihan setelah terjadi masalah
-Test Pass Rate	Mengukur keberhasilan automated test
-Review Feedback Resolution	Mengukur seberapa banyak feedback review yang ditindaklanjuti
-User Satisfaction	Mengukur kepuasan pengguna
-Business Impact	Mengukur dampak software terhadap bisnis
-
-Fokuslah pada nilai yang dihasilkan software, bukan sekadar jumlah baris kode yang dibuat.
-
-12. Roadmap Pengembangan Kemampuan untuk Junior Developer
-
-Berdasarkan gagasan Laurie Voss, berikut roadmap praktis yang dapat digunakan oleh junior developer untuk mempersiapkan diri menghadapi era AI.
-
-Tahap 1: Fundamental Software Engineering
-
-Jangan meninggalkan fundamental programming hanya karena AI bisa menulis kode.
-
-Pelajari:
-
-Data Structures and Algorithms.
-Object-Oriented Programming.
-Functional Programming.
-Database Design.
-REST API.
-Authentication and Authorization.
-Software Architecture.
-Clean Code.
-Design Patterns.
-Git dan Version Control.
-Testing.
-Debugging.
-
-Mengapa masih penting?
-
-Karena Anda tidak mungkin mengevaluasi kode AI dengan baik jika tidak memahami bagaimana software bekerja.
-
-Tahap 2: AI-Assisted Development
-
-Pelajari cara menggunakan AI untuk mempercepat pekerjaan development.
-
-Latih kemampuan:
-
-Prompt Engineering.
-Context Engineering.
-AI Coding Agents.
-Repository Understanding.
-Automated Testing.
-Code Review dengan AI.
-Debugging menggunakan AI.
-Refactoring dengan AI.
-Documentation Generation.
-
-Jangan hanya meminta AI menghasilkan kode.
-
-Pelajari juga cara memberikan konteks dan memverifikasi hasilnya.
-
-Tahap 3: Problem Solving dan Product Thinking
-
-Mulailah belajar memahami masalah dari sudut pandang pengguna.
-
-Pelajari:
-
-Problem Identification.
-Requirement Gathering.
-User Interview.
-User Journey.
-Business Process Analysis.
-Product Discovery.
-Feature Prioritization.
-Acceptance Criteria.
-Specification Writing.
-
-Latih diri untuk memahami mengapa sebuah fitur dibutuhkan sebelum memikirkan bagaimana cara membuatnya.
-
-Tahap 4: Production Engineering
-
-Pelajari bagaimana aplikasi berjalan di lingkungan production.
-
-Materi yang perlu dipelajari:
-
-Docker.
-CI/CD.
-Cloud Infrastructure.
-Monitoring.
-Logging.
-Observability.
-Performance Optimization.
-Scalability.
-Security.
-Incident Management.
-
-Developer harus memahami bahwa software development tidak berhenti ketika kode selesai dibuat.
-
-Software harus bisa dijalankan, dipelihara, dan memberikan layanan secara konsisten.
-
-Tahap 5: Product Engineer Mindset
-
-Gabungkan semua kemampuan sebelumnya.
-
-Mulailah membangun project dengan pendekatan berikut:
-
-Temukan masalah nyata.
-Lakukan observasi terhadap calon pengguna.
-Identifikasi kebutuhan.
-Buat specification.
-Tentukan acceptance criteria.
-Rancang solusi.
 Gunakan AI untuk membantu implementasi.
-Lakukan testing.
-Deploy ke production.
-Kumpulkan feedback pengguna.
-Evaluasi hasil.
-Lakukan perbaikan.
 
-Dengan pendekatan ini, Anda tidak hanya berlatih menjadi programmer, tetapi juga mengembangkan kemampuan sebagai Product Engineer.
+Validasi apakah solusi tersebut benar-benar
+menyelesaikan masalah pengguna.
+```
 
-13. Contoh Studi Kasus: Membangun Aplikasi Manajemen Inventaris
+Dengan cara tersebut, junior belajar berpikir seperti seorang engineer yang memahami produk, bukan sekadar seseorang yang bisa menggunakan framework.
 
-Untuk memahami seluruh konsep di atas, mari gunakan contoh sederhana.
+---
 
-Misalnya, Anda mendapatkan proyek untuk membangun aplikasi manajemen inventaris sebuah perusahaan distribusi barang.
+## 9. Apakah orang yang suka coding harus meninggalkan dunia programming?
 
-13.1. Pendekatan developer tradisional
+`22:57 – 25:11`
 
-Developer menerima task:
+Laurie menyadari bahwa banyak orang masuk ke dunia software engineering karena memang menyukai aktivitas programming.
 
-text
-Buat aplikasi inventory management.
+Mereka menikmati:
 
+- Menulis kode.
+- Memecahkan bug yang sulit.
+- Membuat algoritma.
+- Mendesain arsitektur.
+- Membuat abstraksi yang elegan.
+- Mengoptimalkan performa aplikasi.
 
-Kemudian langsung membuat:
+Namun, jika AI semakin banyak mengambil alih aktivitas coding, pekerjaan engineer mungkin akan lebih banyak melibatkan komunikasi, analisis, dan pengambilan keputusan.
 
-Database barang.
-CRUD barang.
-CRUD kategori.
-CRUD supplier.
-Halaman stok.
-API inventory.
+Tidak semua programmer akan menyukai perubahan ini.
 
-Developer fokus pada penyelesaian task teknis.
+Laurie memberikan analogi yang menarik:
 
-Masalahnya, belum tentu aplikasi tersebut sesuai dengan kebutuhan perusahaan.
+**Programmer akan tetap melakukan programming seperti penyanyi tetap bernyanyi dan tukang kayu tetap membuat furnitur, meskipun industri musik dan furnitur sudah memiliki mesin produksi.**
 
-13.2. Pendekatan Product Engineer
+Artinya, programming sebagai sebuah keterampilan dan aktivitas kreatif tidak akan hilang.
 
-Product Engineer memulai dengan memahami masalah bisnis.
+Orang tetap bisa menikmati coding, membuat proyek pribadi, bereksperimen dengan teknologi, dan mengembangkan open-source software.
 
-Ia bertanya kepada pengguna:
+Namun, aktivitas menulis kode secara manual mungkin tidak lagi menjadi alasan utama perusahaan membayar seorang engineer dengan kompensasi tinggi.
 
-Bagaimana proses barang masuk?
-Bagaimana proses barang keluar?
-Apakah perusahaan memiliki beberapa gudang?
-Bagaimana proses pemindahan barang?
-Bagaimana jika stok fisik berbeda dengan stok sistem?
-Siapa yang boleh mengubah stok?
-Apakah perusahaan membutuhkan laporan stok harian?
-Bagaimana perusahaan mengetahui barang yang hampir habis?
+Perusahaan akan lebih menghargai kemampuan engineer dalam menghasilkan solusi yang benar-benar dibutuhkan.
 
-Setelah mendapatkan informasi, Product Engineer membuat specification.
+---
+
+## 10. Apa yang harus dilakukan developer mulai sekarang?
+
+`25:11 – 27:01`
+
+Pada bagian terakhir, Laurie memberikan beberapa arahan praktis.
+
+Mari kita terjemahkan menjadi tindakan yang relevan untuk software engineer, khususnya junior developer.
+
+### A. Mulai terbiasa bekerja dengan AI coding agents
+
+Jangan menganggap AI hanya sebagai alat untuk bertanya tentang syntax.
+
+Mulailah memanfaatkan AI untuk membantu seluruh proses development.
+
+Contoh tools yang bisa dipelajari:
+
+- [Claude Code](https://claude.com/claude-code) — membantu memahami repository, menulis kode, dan menjalankan pekerjaan coding.
+- [Cursor](https://cursor.com) — membantu pengembangan software dengan AI di dalam editor.
+- [GitHub Copilot](https://github.com/features/copilot) — membantu coding dan code review.
+- [OpenAI Codex](https://openai.com/codex) — membantu mengerjakan tugas pengembangan software.
+
+Jangan hanya belajar bagaimana memberikan prompt agar AI menghasilkan kode.
+
+Belajarlah bagaimana memberikan konteks, membagi pekerjaan, memeriksa hasil, dan mengevaluasi implementasi AI.
+
+### B. Fokus pada kode yang memiliki risiko tinggi
+
+Laurie menyarankan agar engineer lebih selektif dalam melakukan code review manual.
+
+Prioritaskan kode yang memiliki dampak besar apabila terjadi kesalahan.
+
+Contohnya:
+
+- Authentication dan authorization.
+- Payment dan financial transactions.
+- Database migration.
+- Security configuration.
+- Data privacy.
+- Core business logic.
+- Infrastruktur production.
+
+Sementara pekerjaan yang lebih mudah diverifikasi dapat dibantu oleh automated reviewer dan automated tests.
+
+Tetapi ingat, otomatisasi bukan berarti tidak perlu pengawasan.
+
+### C. Buat standar kualitas yang jelas
+
+Jangan hanya memberikan instruksi kepada AI seperti:
+
+> "Buatkan kode yang bagus."
+
+Instruksi tersebut terlalu abstrak.
+
+Tuliskan standar kualitas yang dapat diperiksa.
 
 Contoh:
 
-text
-Project:
-Inventory Management System
+```text
+Coding standards:
 
-Problem Statement:
-Perusahaan mengalami kesulitan dalam memantau
-stok barang di beberapa gudang.
+1. Gunakan TypeScript.
+2. Terapkan separation of concerns.
+3. Semua endpoint wajib melakukan input validation.
+4. Jangan menyimpan password dalam bentuk plain text.
+5. Semua database operation harus menangani error.
+6. Buat unit test untuk business logic.
+7. Gunakan transaction untuk proses finansial.
+8. Pastikan tidak ada data sensitif di dalam log.
+```
 
-Business Requirements:
-1. Sistem dapat mencatat barang masuk.
-2. Sistem dapat mencatat barang keluar.
-3. Sistem mendukung banyak gudang.
-4. Sistem dapat mencatat perpindahan barang.
-5. Sistem dapat menampilkan stok secara real-time.
-6. Sistem mencatat histori perubahan stok.
+Dengan aturan yang jelas, AI memiliki pedoman untuk menghasilkan kode yang sesuai standar tim.
 
-Business Rules:
-1. Barang keluar tidak boleh melebihi stok tersedia.
-2. Setiap transaksi stok harus memiliki histori.
-3. Perpindahan barang harus memiliki gudang asal
-   dan gudang tujuan.
-4. Hanya user dengan permission tertentu yang
-   dapat melakukan penyesuaian stok.
+Laurie menyebut pentingnya mengubah pengetahuan dan penilaian senior engineer menjadi specification, rules, dan evaluation criteria yang dapat dipahami mesin.
 
-Acceptance Criteria:
-1. Stok bertambah ketika barang masuk berhasil.
-2. Stok berkurang ketika barang keluar berhasil.
-3. Stok gudang asal berkurang ketika transfer berhasil.
-4. Stok gudang tujuan bertambah ketika transfer berhasil.
-5. Sistem menolak transaksi yang menyebabkan stok negatif.
+### D. Belajar membuat specification yang baik
 
+Ini merupakan salah satu keterampilan yang paling penting untuk masa depan.
 
-Kemudian Product Engineer menggunakan AI Coding Agent untuk membantu:
+Sebelum meminta AI membuat fitur, Anda harus mampu menjelaskan:
 
-Membuat database schema.
-Membuat backend API.
-Membuat frontend.
-Membuat unit test.
-Membuat integration test.
-Membuat dokumentasi.
-Melakukan refactoring.
+- Apa masalahnya?
+- Siapa penggunanya?
+- Mengapa masalah tersebut harus diselesaikan?
+- Bagaimana solusi yang diharapkan?
+- Apa saja business rules?
+- Apa saja kondisi yang mungkin terjadi?
+- Bagaimana cara menguji keberhasilannya?
 
-Setelah itu, Product Engineer memeriksa hasil implementasi dan memastikan sistem memenuhi kebutuhan bisnis.
+Contoh specification sederhana:
 
-13.3. Perbedaan hasil
-Aspek	Developer Tradisional	Product Engineer
-Awal pekerjaan	Menerima task	Memahami masalah
-Requirement	Mengikuti instruksi	Menggali kebutuhan
-Implementasi	Menulis kode manual	Menggunakan AI dan kemampuan teknis
-Evaluasi	Memastikan fitur berjalan	Memastikan masalah terselesaikan
-Hasil	Aplikasi sesuai task	Aplikasi sesuai kebutuhan bisnis
+**Contoh: Spesifikasi fitur pemesanan produk**
 
-Perbedaan utamanya bukan terletak pada siapa yang menulis kode.
+**Problem**
+Pelanggan kesulitan mengetahui status pesanan setelah melakukan pembelian.
 
-Perbedaannya terletak pada siapa yang memahami masalah dan memastikan solusi yang dibuat benar-benar tepat.
+**Goal**
+Pelanggan dapat memantau status pesanan secara mandiri.
 
-14. Kesimpulan
+**Functional requirements**
 
-Berdasarkan presentasi Laurie Voss, kita dapat mengambil beberapa kesimpulan penting.
+- Pelanggan dapat melihat daftar pesanan.
+- Pelanggan dapat melihat detail pesanan.
+- Status pesanan diperbarui ketika admin mengubah status.
+- Pelanggan hanya dapat melihat pesanannya sendiri.
 
-14.1. AI mengubah cara software dikembangkan
+**Business rules**
 
-AI Coding Agents membuat proses penulisan kode menjadi jauh lebih cepat dan murah.
+- Status pesanan: pending, paid, processing, shipped, completed, cancelled.
+- Pesanan yang sudah completed tidak dapat dibatalkan.
+- Perubahan status harus tercatat dalam riwayat.
 
-Namun, hal tersebut tidak otomatis membuat seluruh proses software development menjadi lebih cepat.
+**Acceptance criteria**
 
-Bottleneck hanya berpindah dari coding ke code review, kemudian berpotensi berpindah lagi ke operations, security, dan aspek lainnya.
+- Pengguna hanya dapat mengakses pesanan miliknya.
+- Perubahan status tercermin pada halaman detail.
+- Riwayat perubahan status tersimpan dengan benar.
+- Sistem menolak transisi status yang tidak valid.
 
-14.2. Kemampuan coding saja tidak lagi cukup
+Perhatikan bahwa specification tersebut menjelaskan apa yang harus dilakukan sistem, bukan sekadar bagaimana menulis kodenya.
 
-Kemampuan programming tetap penting, tetapi tidak cukup untuk menjadi pembeda utama seorang engineer.
+AI dapat membantu menerjemahkan specification menjadi implementasi.
 
-Developer perlu memahami bagaimana software digunakan, masalah apa yang ingin diselesaikan, dan bagaimana menentukan solusi yang tepat.
+### E. Ukur hasil, bukan jumlah kode
 
-14.3. Specification menjadi salah satu kemampuan paling berharga
+Laurie memberikan penekanan yang sangat penting:
 
-AI sangat bergantung pada konteks dan instruksi yang diberikan.
+**741% lebih banyak kode bukanlah tujuan utama.**
 
-Jika requirement tidak jelas, AI bisa menghasilkan kode yang secara teknis terlihat benar tetapi tidak sesuai kebutuhan.
+Tujuan utama software development adalah menghasilkan software yang bermanfaat dan benar-benar digunakan.
 
-Karena itu, kemampuan requirement gathering, problem analysis, dan specification writing akan semakin penting.
+Contoh metrik yang lebih relevan:
 
-14.4. Product Engineer menjadi peran yang semakin relevan
+| Metrik | Apa yang diukur? |
+|---|---|
+| Feature delivery time | Seberapa cepat fitur dirilis |
+| Defect rate | Seberapa sering bug muncul |
+| Production incidents | Seberapa sering sistem mengalami gangguan |
+| Test effectiveness | Seberapa baik pengujian menemukan masalah |
+| User satisfaction | Seberapa puas pengguna |
+| Feature adoption | Seberapa banyak pengguna menggunakan fitur |
+| Business impact | Seberapa besar dampak fitur terhadap bisnis |
 
-Product Engineer adalah engineer yang mampu menggabungkan:
+Contohnya, membuat 100 fitur bukan berarti perusahaan lebih produktif daripada membuat 10 fitur.
 
-Technical Skills.
-Problem Solving.
-Product Thinking.
-Business Understanding.
-Communication.
-AI-Assisted Development.
+Jika 10 fitur tersebut menyelesaikan masalah pelanggan, sedangkan 100 fitur lainnya tidak digunakan, maka 10 fitur tersebut bisa jadi jauh lebih bernilai.
 
-Peran ini tidak hanya berfokus pada bagaimana membuat software, tetapi juga mengapa software tersebut harus dibuat dan apakah software tersebut benar-benar memberikan manfaat.
+---
 
-14.5. Junior Developer harus mengubah cara belajar
+# 11. Bagaimana menerapkan pemikiran ini sebagai Junior Developer?
 
-Junior developer tidak boleh hanya mengandalkan kemampuan membuat CRUD, mengikuti tutorial, atau menghafal syntax.
+Sekarang kita terjemahkan semua pembahasan tadi menjadi roadmap belajar yang lebih praktis.
 
-Fundamental programming tetap harus dikuasai, tetapi perlu dilengkapi dengan kemampuan:
+Menurut saya, junior developer tidak perlu meninggalkan fundamental programming.
 
-Menggunakan AI.
-Memahami kebutuhan pengguna.
-Menganalisis masalah.
-Menulis specification.
-Melakukan testing.
-Memahami sistem production.
-Berkomunikasi dengan stakeholder.
+Justru fundamental tersebut tetap menjadi modal untuk memahami, mengarahkan, dan mengevaluasi hasil pekerjaan AI.
 
-Junior developer perlu belajar menjadi engineer yang mampu menyelesaikan masalah secara menyeluruh.
+Namun, cara belajar perlu diperluas.
 
-15. Pesan Penting untuk Junior Developer
+## Roadmap pengembangan kemampuan Junior Developer
 
-Jika Anda saat ini sedang belajar menjadi software engineer, jangan langsung merasa bahwa masa depan programming sudah berakhir karena AI.
+Urutan pembelajaran yang bisa digunakan sebagai panduan pribadi.
 
-Justru, ini adalah kesempatan untuk mengembangkan kemampuan yang lebih luas.
+1. **Tahap 1 — Kuasai fundamental programming**
 
-Jangan hanya belajar bagaimana menulis kode.
+   Pelajari:
 
-Belajarlah bagaimana memahami masalah, menentukan solusi, dan memastikan solusi tersebut memberikan nilai.
+   - JavaScript/TypeScript atau bahasa utama Anda.
+   - Data structures dan algorithms.
+   - OOP dan clean code.
+   - Database dan SQL.
+   - HTTP, REST API, dan networking.
+   - Git dan software development workflow.
 
-Mulailah mengubah pola pikir dari:
+   *Tetap wajib*
 
-text
-"Saya harus bisa membuat fitur ini menggunakan kode."
+2. **Tahap 2 — Pahami software engineering**
 
+   Pelajari:
 
-Menjadi:
+   - System design.
+   - Software architecture.
+   - Design patterns.
+   - Testing.
+   - Debugging.
+   - Security.
+   - Deployment dan monitoring.
 
-text
-"Saya harus memahami masalah yang ingin diselesaikan,
-menentukan solusi yang tepat, kemudian menggunakan
-teknologi dan AI untuk mewujudkan solusi tersebut."
+   Tujuannya agar Anda memahami kualitas sistem, bukan hanya sintaks.
 
+3. **Tahap 3 — Kuasai AI-assisted development**
 
-Ingat bahwa AI bisa membantu Anda menulis ribuan baris kode dalam waktu singkat.
+   Pelajari:
 
-Namun, menghasilkan ribuan baris kode bukan berarti Anda telah menyelesaikan masalah.
+   - Menggunakan AI coding agents.
+   - Memberikan konteks repository.
+   - Membuat task breakdown.
+   - Membuat specification untuk AI.
+   - Memeriksa hasil kode AI.
+   - Mengotomatisasi testing dan validation.
 
-Nilai seorang software engineer bukan hanya terletak pada seberapa banyak kode yang dapat ditulis, tetapi pada seberapa baik masalah manusia dapat diselesaikan melalui software yang dibuatnya.
+4. **Tahap 4 — Belajar memahami kebutuhan bisnis**
 
-Pada akhirnya, pesan utama Laurie Voss dapat dirangkum dalam satu kalimat:
+   - Identifikasi masalah.
+   - Wawancara calon pengguna.
+   - Buat requirement.
+   - Buat specification.
+   - Tentukan arsitektur.
+   - Gunakan AI untuk implementasi.
+   - Lakukan testing.
+   - Deploy.
+   - Evaluasi berdasarkan feedback pengguna.
 
-The rise of the Product Engineer is about what's left when the models do the building.
+5. **Tahap 5 — Berlatih menjadi Product Engineer**
 
-Artinya:
+   Biasakan mengerjakan satu proyek dari awal sampai akhir:
 
-Ketika AI sudah mampu membangun software, peran engineer yang paling bernilai adalah memahami apa yang perlu dibangun, menentukan seperti apa solusi yang baik, dan memastikan software tersebut benar-benar bermanfaat bagi manusia.
+   - Identifikasi masalah.
+   - Wawancara calon pengguna.
+   - Buat requirement.
+   - Buat specification.
+   - Tentukan arsitektur.
+   - Gunakan AI untuk implementasi.
+   - Lakukan testing.
+   - Deploy.
+   - Evaluasi berdasarkan feedback pengguna.
 
-Referensi Konsep
+   Cobalah membuat aplikasi berdasarkan masalah nyata.
 
-Beberapa konsep dan tokoh yang disebutkan dalam presentasi:
+   Contoh:
 
-Theory of Constraints — Eliyahu M. Goldratt. Konsep mengenai bottleneck dalam suatu sistem.
-The Mythical Man-Month — Fred Brooks. Membahas kompleksitas dalam pengembangan software.
-Essential Complexity vs Accidental Complexity — Konsep dari Fred Brooks mengenai dua jenis kompleksitas software.
-Product Engineer — Peran engineer yang menggabungkan pemahaman produk, kebutuhan pengguna, dan kemampuan teknis.
-AI Coding Agents — Sistem AI yang dapat membantu atau menjalankan berbagai tahapan pengembangan software secara otomatis.
+   - Aplikasi manajemen stok toko.
+   - Sistem booking salon.
+   - Aplikasi pemesanan makanan.
+   - Sistem manajemen keuangan UMKM.
+
+   Jangan langsung coding. Cari tahu terlebih dahulu bagaimana pengguna bekerja.
+
+---
+
+## 12. Contoh penerapan: Membangun aplikasi menggunakan pendekatan Product Engineer
+
+Supaya lebih konkret, mari gunakan studi kasus sederhana.
+
+Anda ingin membuat aplikasi manajemen stok untuk toko kelontong.
+
+**Pendekatan developer yang hanya fokus coding:**
+
+1. Membuat project React.
+2. Membuat database.
+3. Membuat CRUD produk.
+4. Membuat halaman dashboard.
+5. Membuat fitur laporan.
+
+Hasilnya mungkin aplikasi yang secara teknis berjalan dengan baik.
+
+Tetapi belum tentu menyelesaikan masalah pemilik toko.
+
+**Pendekatan Product Engineer:**
+
+1. Berbicara dengan pemilik toko.
+2. Mengetahui bahwa stok sering tidak cocok dengan barang fisik.
+3. Menemukan bahwa karyawan lupa mencatat barang masuk dan keluar.
+4. Mengetahui bahwa pemilik ingin mendapatkan notifikasi ketika stok menipis.
+5. Menentukan kebutuhan sistem berdasarkan proses bisnis tersebut.
+6. Membuat specification.
+7. Menggunakan AI untuk membantu membuat implementasi.
+8. Menguji sistem bersama pemilik toko.
+9. Mengumpulkan feedback dan melakukan perbaikan.
+
+Perhatikan perbedaannya.
+
+Pendekatan pertama berorientasi pada pembuatan aplikasi.
+
+Pendekatan kedua berorientasi pada penyelesaian masalah.
+
+Inilah pergeseran pola pikir yang ingin disampaikan Laurie Voss.
+
+---
+
+# 13. Kesimpulan: Masa depan software engineer bukan sekadar tentang siapa yang paling jago coding
+
+Menurut saya, inti presentasi Laurie Voss dapat dirangkum dalam lima poin utama.
+
+1. **AI mengubah nilai aktivitas coding.**
+   Menulis kode menjadi semakin murah dan cepat. Kemampuan coding tetap penting, tetapi tidak lagi menjadi satu-satunya keunggulan seorang engineer.
+
+2. **Bottleneck akan terus berpindah.**
+   Ketika coding semakin mudah, hambatan berpindah ke code review, operations, security, dan akhirnya pemahaman terhadap kebutuhan pengguna.
+
+3. **Memahami masalah menjadi kemampuan yang sangat berharga.**
+   Developer yang mampu memahami kebutuhan pengguna, aturan bisnis, dan konteks sistem akan memiliki keunggulan dalam mengarahkan AI.
+
+4. **Peran Product Engineer akan semakin penting.**
+   Engineer tidak hanya bertugas menerjemahkan tiket menjadi kode, tetapi juga menemukan masalah, menentukan solusi, membuat specification, mengarahkan AI, dan memastikan hasilnya memberikan nilai.
+
+5. **Junior developer harus memiliki cara belajar yang lebih luas.**
+   Jangan hanya belajar framework dan syntax. Pelajari fundamental programming, software engineering, AI tools, komunikasi, analisis kebutuhan, dan pemahaman bisnis.
+
+> **Pesan terpenting dari video ini**
+>
+> # Don't just learn how to write code. Learn how to solve problems.
+>
+> Masa depan software engineering bukan hanya tentang kemampuan menghasilkan kode sebanyak-banyaknya, tetapi tentang kemampuan menentukan kode seperti apa yang perlu dibuat, mengapa kode tersebut harus dibuat, dan bagaimana memastikan kode itu benar-benar menyelesaikan masalah.
+
+---
+
+## Penutup: Saran saya untuk Junior Developer
+
+Ada satu hal yang ingin saya tekankan.
+
+**Jangan salah memahami pesan video ini sebagai tanda bahwa belajar programming sudah tidak penting.**
+
+Justru sebaliknya.
+
+Untuk bisa menjadi Product Engineer yang baik, Anda harus memahami programming dan software engineering secara mendalam.
+
+Bagaimana Anda bisa menilai kode yang dibuat AI jika Anda tidak memahami kode tersebut?
+
+Bagaimana Anda bisa menentukan arsitektur yang tepat jika Anda tidak memahami konsekuensi teknisnya?
+
+Bagaimana Anda bisa memastikan sistem aman jika Anda tidak memahami security?
+
+AI bukan alasan untuk berhenti belajar fundamental.
+
+AI adalah alasan untuk meningkatkan level kemampuan Anda.
+
+Mulailah mengubah pola pikir:
+
+- Dari sekadar menyelesaikan task menjadi menyelesaikan masalah.
+- Dari sekadar menulis kode menjadi memahami alasan di balik kode.
+- Dari sekadar menggunakan AI menjadi mampu mengarahkan dan mengevaluasi AI.
+- Dari sekadar membuat fitur menjadi membangun produk yang memberikan manfaat.
+- Dari sekadar berpikir sebagai programmer menjadi berpikir sebagai engineer yang memahami produk.
+
+**Pada akhirnya, developer yang paling bernilai bukan selalu orang yang paling cepat mengetik kode, melainkan orang yang paling mampu menentukan apa yang seharusnya dibangun dan memastikan hasilnya benar-benar berguna.**
