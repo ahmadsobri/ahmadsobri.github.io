@@ -18,12 +18,13 @@ menu:
 # SITE INFORMATION
 # ============================================================
 
-title: "Ahmad Sobri - Software Engineering Notes"
+title: "Ahmad Sobri - Catatan Software Engineering"
 tagline: "Knowledge, Architecture, and Engineering"
 
 description: >-
-  Personal knowledge base, system design notes, software architecture,
-  engineering practices, and lessons learned building software.
+  Basis pengetahuan pribadi yang berisi catatan perancangan sistem,
+  arsitektur perangkat lunak, praktik rekayasa perangkat lunak,
+  serta berbagai pembelajaran dari pengalaman membangun perangkat lunak.
 
 url: "https://ahmadsobri.github.io"
 baseurl: ""
