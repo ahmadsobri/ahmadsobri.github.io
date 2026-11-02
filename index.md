@@ -1,43 +1,42 @@
 
 ---
 layout: page
-title: Home
-description: Ahmad Sobri - Software Engineering Notes
+title: Beranda
+description: Ahmad Sobri - Catatan Software Engineering
 permalink: /
 ---
+# Catatan Software Engineering
 
-# Engineering Notes
+Membangun perangkat lunak bukan sekadar menulis kode. Lebih dari itu, proses ini mencakup memahami permasalahan, merancang sistem, mempertimbangkan berbagai kompromi, serta terus belajar dan berkembang.
 
-Building software is more than writing code. It is about understanding problems, designing systems, making trade-offs, and continuously learning.
+Selamat datang di buku catatan rekayasa perangkat lunak saya.
 
-Welcome to my engineering notebook.
-
-I'm **Ahmad Sobri**, a software engineer documenting technical explorations, software architecture, and lessons learned throughout my engineering journey.
-
----
-
-## Areas of Interest
-
-### System Design
-
-Distributed systems, scalability, high availability, caching, messaging, and database architecture.
-
-### Software Architecture
-
-Clean Architecture, Domain-Driven Design, Microservices, design patterns, and SOLID principles.
-
-### Backend Engineering
-
-API design, database optimization, authentication, performance engineering, and testing.
-
-### Engineering Practices
-
-Code quality, refactoring, technical decision-making, and developer productivity.
+Saya **Ahmad Sobri**, seorang software engineer yang mendokumentasikan eksplorasi teknis, arsitektur perangkat lunak, serta berbagai pelajaran yang diperoleh sepanjang perjalanan saya di dunia rekayasa perangkat lunak.
 
 ---
 
-## Explore My Articles
+## Bidang yang Saya Minati
 
-Discover my latest technical notes and engineering explorations.
+### Perancangan Sistem (System Design)
 
-[Browse All Articles →](/blog/)
+Sistem terdistribusi, skalabilitas, ketersediaan tinggi (high availability), caching, messaging, dan arsitektur basis data.
+
+### Arsitektur Perangkat Lunak (Software Architecture)
+
+Clean Architecture, Domain-Driven Design, Microservices, design patterns, dan prinsip-prinsip SOLID.
+
+### Rekayasa Backend (Backend Engineering)
+
+Perancangan API, optimasi basis data, autentikasi, rekayasa performa, dan pengujian perangkat lunak.
+
+### Praktik Rekayasa Perangkat Lunak (Engineering Practices)
+
+Kualitas kode, refactoring, pengambilan keputusan teknis, dan peningkatan produktivitas developer.
+
+---
+
+## Jelajahi Artikel Saya
+
+Temukan berbagai catatan teknis, hasil eksplorasi, dan pembelajaran seputar rekayasa perangkat lunak.
+
+[Jelajahi Semua Artikel →](/blog/)
