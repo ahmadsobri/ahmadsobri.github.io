@@ -1,31 +1,30 @@
 
 ---
 layout: about
-title: About Me
+title: Tentang Saya
 permalink: /about/
 ---
+# Tentang Saya
 
-# About Ahmad Sobri
+Saya adalah seorang software engineer yang memiliki ketertarikan dalam merancang dan membangun sistem perangkat lunak yang andal, mudah dipelihara, serta mampu berkembang sesuai kebutuhan (scalable).
 
-I'm a software engineer passionate about designing and building reliable, maintainable, and scalable software systems.
+Website ini merupakan basis pengetahuan pribadi tempat saya mendokumentasikan berbagai konsep teknis, eksplorasi perancangan sistem, praktik rekayasa perangkat lunak, serta pembelajaran yang diperoleh dari pengalaman pengembangan perangkat lunak di dunia nyata.
 
-This website is my personal knowledge base where I document technical concepts, system design explorations, engineering practices, and lessons learned from real-world software development.
+## Bidang yang Saya Minati
 
-## Areas of Interest
+- Arsitektur Perangkat Lunak (Software Architecture)
+- Perancangan Sistem (System Design)
+- Rekayasa Backend (Backend Engineering)
+- Sistem Terdistribusi (Distributed Systems)
+- Infrastruktur Cloud (Cloud Infrastructure)
+- Praktik Terbaik dalam Rekayasa Perangkat Lunak (Engineering Best Practices)
 
-- Software Architecture
-- System Design
-- Backend Engineering
-- Distributed Systems
-- Cloud Infrastructure
-- Engineering Best Practices
+## Mengapa Website Ini Dibuat?
 
-## Why This Website?
+Saya percaya bahwa mendokumentasikan apa yang kita pelajari merupakan salah satu cara terbaik untuk memperdalam pemahaman.
 
-I believe that documenting what we learn is one of the best ways to deepen our understanding.
+Website ini berfungsi sebagai catatan perjalanan saya dalam dunia rekayasa perangkat lunak. Sebuah ruang untuk mengorganisasi ide, mempelajari kembali konsep-konsep teknis, serta berbagi pengetahuan dan pengalaman dengan sesama developer.
 
-This website serves as a living notebook of my engineering journey, a place to organize ideas, revisit technical concepts, and share knowledge with other developers.
-
-## Find Me Online
+## Temukan Saya di Internet
 
 - [GitHub](https://github.com/ahmadsobri)
